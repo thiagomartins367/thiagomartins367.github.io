@@ -1,7 +1,7 @@
 {
   "profile": {
     "myName": "Thiago Martins",
-    "title": "Web Developer",
+    "title": "Full-Stack Developer",
     "description": {
       "paragraphs": [
         "Minha trajetória no mundo do desenvolvimento começa no meu curso técnico de informática, onde tive contato com algumas linguagens de programação (Python e C#). 👨‍🔧🖥️",
@@ -87,6 +87,25 @@
       }
     ],
     "experience": [
+      {
+        "title": "Desenvolvedor Full-Stack Pleno",
+        "start": "nov/2025",
+        "end": "Atual",
+        "description": [
+          "Atualmente no desenvolvimento de novas funcionalidades do sistema ERP de gerenciamento de clínicas da empresa <a class='link-med-corporate' href='https://medcorporate.com.br' target='_blank'>Med Corporate</a>, responsável por gerir todas as clínicas credenciadas, bem como, seus serviços prestados aos associados (clientes) da empresa. Desenvolvido em <b>TypeScript</b> utlizando o runtime <b>Deno</b> no banckend com <b>ViteJS</b> no frontend e <b>MySQL</b> como banco de dados.",
+          "Em paralelo a isso também sou responsável por coordenar a equipe encarregada de cadastrar e organizar as clínicas e seus serviços no sistema instruindo-os a como utilizar suas funcionalidades, coletar os dados nescessários e padroniza-los para cadastro, como também, auxiliando em qualquer questão que venha a surgir com relação ao sistema.",
+          "Acompanho também o desenvolvimento e manutenção do sistema ERP dos associados (clientes que utilizam os serviços das clínicas credenciadas e de Telemedicina) que gerencia todo o cadastro dos associados incluindo listagem de cobranças, dados pessoais e o tipo de plano contratado, responsável também por controlar o acesso ao portal de Telemedicina. Também gero relatórios interativos e personalizáveis no <b>Metabase</b> com querys SQL para analisar informações importantes dos associados e compartilhar insights com a equipe em geral, sempre respeitando as diretrizes da LGPD.",
+          "Tanto os sistemas quanto o Metabase ficam hospedados no <b>Amazon Lightsail</b> da <b>AWS (Amazon Web Services)</b> que gerencio juntamente com outro desenvolvedor da equipe."
+        ]
+      },
+      {
+        "title": "Analista de Suporte de Sistemas",
+        "start": "jul/2024",
+        "end": "nov/2025",
+        "description": [
+          "Atividade exercida no setor de suporte dos sistemas (Vision, Faturamento Comercial, Faturamento Industrial e CTe) da empresas <a class='link-prodados' href='http://site.prodadosinformatica.com.br' target='_blank'>Prodados</a> auxiliando os clientes em dúvidas e dificuldades gerais, relatando erros e bugs, e propondo ideias e funcionalidades para a nova versão do sistema Vision desenvolvido em <b>C#</b>, que é o principal sistema da empresa."
+        ]
+      },
       {
         "title": "Pessoa Estudante",
         "start": "set/2021",
