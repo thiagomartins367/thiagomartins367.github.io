@@ -17,12 +17,31 @@
 .link-trybe {
   color: #70e000;
   font-weight: 400;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .link-trybe:hover {
   color: #70e0008f;
+}
+
+.link-prodados {
+  color: #ff9400;
+  font-weight: 400;
   text-decoration: underline;
+}
+
+.link-prodados:hover {
+  color: #bd6f01;
+}
+
+.link-med-corporate {
+  color: #2f7a6a;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.link-med-corporate:hover {
+  color: #1e5045;
 }
 
 .link {
