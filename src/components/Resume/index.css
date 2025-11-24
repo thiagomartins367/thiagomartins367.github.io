@@ -135,23 +135,21 @@
 .link-ifes {
   color: #1b9705;
   font-weight: 400;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .link-ifes:hover {
   color: #1b970585;
-  text-decoration: underline;
 }
 
 .link-coursera {
   color: #005fe4;
   font-weight: 400;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .link-coursera:hover {
   color: #005fe48a;
-  text-decoration: underline;
 }
 
 .section-skills {
