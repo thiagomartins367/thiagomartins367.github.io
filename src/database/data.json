@@ -4,10 +4,12 @@
     "title": "Full-Stack Developer",
     "description": {
       "paragraphs": [
-        "Minha trajetória no mundo do desenvolvimento começa no meu curso técnico de informática, onde tive contato com algumas linguagens de programação (Python e C#). 👨‍🔧🖥️",
+        "Minha trajetória no mundo do desenvolvimento começa no meu <b>Curso Técnico de Informática</b>, onde tive contato com algumas linguagens de programação (Python e C#). 👨‍🔧🖥️",
         "E na reta final deste curso quando tive que desenvolver um sistema com persistência em banco de dados utilizando: HTML, CSS, JavaScript, NodeJS e MySQL.",
         "Foi a partir daí que meu interesse pelo desenvolvimento de software se intensificou. 👨‍💻",
-        "Mais a frente nessa trajetória encontrei a <a class='link-trybe' href='https://www.betrybe.com/formacao-desenvolvimento-web' target='_blank'>Trybe</a>, onde tive não só um contato, mas sim uma verdadeira imersão no mundo DEV, desde o básico (Git & GitHub) até o avançado, que com muita prática nos mais diversos projetos e um ensino de qualidade pude aprender tudo que um DEV Full Stack precisa para atender as exigências do mercado."
+        "Mais a frente nessa trajetória encontrei a <a class='link-trybe' href='https://www.betrybe.com/formacao-desenvolvimento-web' target='_blank'>Trybe</a>, onde tive não só um contato, mas sim uma verdadeira imersão no mundo DEV, desde o básico (Git & GitHub) até o avançado, que com muita prática nos mais diversos projetos e um ensino de qualidade pude aprender tudo que um DEV Full Stack precisa para atender as exigências do mercado.",
+        "Ingressei no meu primeiro emprego formal no ramo de tecnologia em jul/2024 na empresa <a class='link-prodados' href='http://site.prodadosinformatica.com.br' target='_blank'>Prodados</a> onde exerci a função de <b>Analista de Suporte de Sistemas</b> (veja mais na seção \"Resumo\"). Foi meu primeiro contato com um trabalho formal que seguia horário fixo, hierarquia empresarial e entrega de resultado, também foi onde consegui a oportunidade de ter um contato \"cara-a-cara\" com os clientes utilizando das minhas soft-skills para me comunicar da maneira mais clara e assertiva possível sempre em busca de entregar a melhor solução para cada demanda.",
+        "Atualmente trabalho como <b>Desenvolvedor Full-Stack Pleno</b> na empresa <a class='link-med-corporate' href='https://medcorporate.com.br' target='_blank'>Med Corporate</a> no desenvolvimento e acompanhamento de dois sistemas ERP hospedados na <b>AWS (Amazon Web Services)</b> responsáveis por gerenciar os associados (clientes) e as clínicas credenciadas da empresa, coordenando também, a equipe encarregada de gerir tudo isso através desses dois sistemas."
       ]
     },
     "picture": "/assets/thiago-martins.jpg",
