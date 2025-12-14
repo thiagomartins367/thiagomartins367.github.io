@@ -37,7 +37,7 @@
       {
         "name": "Currículo",
         "subtitle": "curriculo-thiago.pdf",
-        "url": "https://drive.google.com/u/0/uc?id=1dw0bAgo3dsSQvE6d3HqOcbDXfjxrSwFF&export=download",
+        "url": "https://drive.google.com/u/0/uc?id=1RMnX-5Z_yP1Wvi43JH8dld53JSEXDOMl&export=download",
         "image": "/assets/curriculum.svg"
       }
     ]
@@ -94,7 +94,7 @@
         "start": "nov/2025",
         "end": "Atual",
         "description": [
-          "Atuando no desenvolvimento do sistema ERP de gerenciamento da rede de clínicas da empresa <a class='link-med-corporate' href='https://medcorporate.com.br' target='_blank'>MED Corporate</a>, responsável por gerir todas as clínicas credenciadas, bem como, seus serviços prestados aos associados (clientes) da empresa. Desenvolvido em <b>TypeScript</b> utlizando <b>Vite</b> + <b>Tailwind CSS</b> no frontend, <b>NodeJS</b> no backend e <b>MySQL</b> como banco de dados.",
+          "Atuando no desenvolvimento do sistema ERP de gerenciamento da rede de clínicas da empresa <a class='link-med-corporate' href='https://medcorporate.com.br' target='_blank'>MED Corporate</a>, responsável por gerir todas as clínicas credenciadas, bem como, seus serviços prestados aos associados (clientes) da empresa. Desenvolvido em <b>TypeScript</b> utilizando <b>Vite</b> + <b>Tailwind CSS</b> no frontend, <b>NodeJS</b> no backend e <b>MySQL</b> como banco de dados.",
           "Em paralelo a isso também sou responsável por coordenar a equipe encarregada de cadastrar e organizar as clínicas e seus serviços no sistema instruindo-os a como utilizar suas funcionalidades, coletar os dados nescessários e padroniza-los para cadastro, como também, auxiliando em qualquer questão que venha a surgir com relação ao sistema em sí ou a outros sistemas contratados pela empresa.",
           "Acompanho também o desenvolvimento e manutenção do sistema ERP dos associados (clientes que utilizam os serviços das clínicas credenciadas e de Telemedicina) que gerencia todo o cadastro dos associados: cobranças, dados pessoais, tipo de plano contratado e etc; responsável também por controlar o acesso ao portal de Telemedicina. Também gero relatórios interativos e personalizáveis no <b>Metabase</b> com querys SQL para analisar dados relevantes e compartilhar insights com a equipe em geral, sempre respeitando as diretrizes da LGPD.",
           "Tanto os sistemas quanto o Metabase ficam hospedados no <b>Amazon Lightsail</b> da <b>AWS (Amazon Web Services)</b> que gerencio juntamente com outro desenvolvedor da equipe."
