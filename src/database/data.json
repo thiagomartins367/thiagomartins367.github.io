@@ -5,11 +5,11 @@
     "description": {
       "paragraphs": [
         "Minha trajetória no mundo do desenvolvimento começa no meu <b>Curso Técnico de Informática</b>, onde tive contato com algumas linguagens de programação (Python e C#). 👨‍🔧🖥️",
-        "E na reta final deste curso quando tive que desenvolver um sistema com persistência em banco de dados utilizando: HTML, CSS, JavaScript, NodeJS e MySQL.",
+        "E na reta final deste curso quando tive que desenvolver um sistema com persistência em banco de dados utilizando: <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>NodeJS</b> e <b>MySQL</b>.",
         "Foi a partir daí que meu interesse pelo desenvolvimento de software se intensificou. 👨‍💻",
         "Mais a frente nessa trajetória encontrei a <a class='link-trybe' href='https://www.betrybe.com/formacao-desenvolvimento-web' target='_blank'>Trybe</a>, onde tive não só um contato, mas sim uma verdadeira imersão no mundo DEV, desde o básico (Git & GitHub) até o avançado, que com muita prática nos mais diversos projetos e um ensino de qualidade pude aprender tudo que um DEV Full Stack precisa para atender as exigências do mercado.",
         "Ingressei no meu primeiro emprego formal no ramo de tecnologia em jul/2024 na empresa <a class='link-prodados' href='http://site.prodadosinformatica.com.br' target='_blank'>Prodados</a> onde exerci a função de <b>Analista de Suporte de Sistemas</b> (veja mais na seção \"Resumo\"). Foi meu primeiro contato com um trabalho formal que seguia horário fixo, hierarquia empresarial e entrega de resultado, também foi onde consegui a oportunidade de ter um contato \"cara-a-cara\" com os clientes utilizando das minhas soft-skills para me comunicar da maneira mais clara e assertiva possível sempre em busca de entregar a melhor solução para cada demanda.",
-        "Atualmente trabalho como <b>Desenvolvedor Full-Stack Pleno</b> na empresa <a class='link-med-corporate' href='https://medcorporate.com.br' target='_blank'>Med Corporate</a> no desenvolvimento e acompanhamento de dois sistemas ERP hospedados na <b>AWS (Amazon Web Services)</b> responsáveis por gerenciar os associados (clientes) e as clínicas credenciadas da empresa, coordenando também, a equipe encarregada de gerir tudo isso através desses dois sistemas."
+        "Atualmente trabalho como <b>Desenvolvedor Full-Stack Pleno</b> na empresa <a class='link-med-corporate' href='https://medcorporate.com.br' target='_blank'>MED Corporate</a> no desenvolvimento e acompanhamento de dois sistemas ERP hospedados na <b>AWS (Amazon Web Services)</b> responsáveis por gerenciar os associados (clientes) e as clínicas credenciadas da empresa, coordenando também, a equipe encarregada de gerir tudo isso através desses dois sistemas."
       ]
     },
     "picture": "/assets/thiago-martins.jpg",
@@ -49,7 +49,7 @@
         "start": "jan/2024",
         "end": "fev/2024",
         "description": [
-          "Promovido pela <a class='link-trybe' href='https://www.betrybe.com/cursos/bootcamp-gratuito-aws-ia-generativa' target='_blank'>Trybe</a> o bootcamp aborda os fundamentos da IA e demonstra como essa tecnologia, a primeira vista muito complexa, pode ser usada de forma mais facilitada utilizando as ferramentas que a <b>AWS (Amazon Web Services)</b> oferece: <i>CodeWhisperer</i>, <i>Amazon Bedrock</i>, <i>Amazon Sagemaker<i/>."
+          "Promovido pela <a class='link-trybe' href='https://www.betrybe.com/cursos/bootcamp-gratuito-aws-ia-generativa' target='_blank'>Trybe</a> o bootcamp aborda os <b>fundamentos da IA</b> e demonstra como essa tecnologia, a primeira vista muito complexa, pode ser usada de forma mais facilitada utilizando as ferramentas que a <b>AWS (Amazon Web Services)</b> oferece: <i>CodeWhisperer</i>, <i>Amazon Bedrock</i>, <i>Amazon Sagemaker<i/>."
         ]
       },
       {
@@ -57,7 +57,7 @@
         "start": "out/2023",
         "end": "fev/2024",
         "description": [
-          "Promovida pela <a class='link-trybe' href='https://www.betrybe.com' target='_blank'>Trybe</a> a aceleração aborda os fundamentos e recursos do .NET e a linguagem C#, POO com C#, ASP.NET & WebApi, LINQ, SQL Server & Entity Framework, JWT em API REST, Deployment, Microsserviços.",
+          "Promovida pela <a class='link-trybe' href='https://www.betrybe.com' target='_blank'>Trybe</a> a aceleração aborda os fundamentos e recursos do <b>.NET e a linguagem C#</b>, <b>POO com C#</b>, <b>ASP.NET & WebApi</b>, <b>LINQ</b>, <b>SQL Server & Entity Framework</b>, <b>JWT em API REST</b>, <b>Deployment</b> e <b>Microsserviços</b>.",
           "Todo o período de aprendizado é baseado em teoria seguida da prática nos mais diversos projetos e exercícios de fixação, a API <a class='link' href='https://github.com/thiagomartins367/Trybe-project-csharp-trybe-hotel' target='_blank'>TybeHotel</a> é o projeto mais completo e coloca em prática a maior parte do conteúdo dessa aceleração."
         ]
       },
@@ -66,7 +66,7 @@
         "start": "mar/2023",
         "end": "jul/2023",
         "description": [
-          "O programa é promovido pela <a class='link-coursera' href='https://www.coursera.org/programs/trybe-google-learning-program-hrevt?collectionId=twDTY&currentTab=CATALOG&productId=VMM1lDgkEeym8A7cXo-JEw&productType=s12n&showMiniModal=true' target='_blank'>Coursera</a> e inclui mais de 200 horas de conteúdo e centenas de atividades práticas e avaliações que simulam situações reais do design de experiência do usuário (UX), essenciais para o sucesso no local de trabalho.",
+          "O programa é promovido pela <a class='link-coursera' href='https://www.coursera.org/programs/trybe-google-learning-program-hrevt?collectionId=twDTY&currentTab=CATALOG&productId=VMM1lDgkEeym8A7cXo-JEw&productType=s12n&showMiniModal=true' target='_blank'>Coursera</a> e inclui <b>+200 horas de conteúdo</b> e centenas de atividades práticas e avaliações que simulam situações reais do design de experiência do usuário (UX), essenciais para o sucesso no local de trabalho.",
           "Conteúdo altamente interativo e desenvolvido por funcionários do <b>Google</b> com décadas de experiência em design de UX.",
           "Envolve o processo de design do início ao fim, incluindo: como ter empatia com os usuários; definir as dificuldades dos usuários; apresentar ideias para soluções de design; criar wireframes, maquetes e protótipos; realizar estudos de usabilidade para testar projetos; iterar designs com base em feedback; compreender Sprints de Design."
         ]
@@ -76,7 +76,7 @@
         "start": "set/2021",
         "end": "out/2022",
         "description": [
-          "Formação em desenvolvimento web full-stack na <a class='link-trybe' href='https://www.betrybe.com/formacao-desenvolvimento-web' target='_blank'>Trybe</a> com período total de 1.500 horas de conteúdos práticos, +30 projetos desenvolvidos em time e individualmente aplicando em conjunto metodologias ágeis e habilidades comportamentais (Soft-Skills)."
+          "Formação em desenvolvimento web full-stack na <a class='link-trybe' href='https://www.betrybe.com/formacao-desenvolvimento-web' target='_blank'>Trybe</a> com período total de <b>1.500 horas de conteúdos práticos</b>, <b>+30 projetos desenvolvidos</b> em time e individualmente aplicando em conjunto metodologias ágeis e habilidades comportamentais (Soft-Skills)."
         ]
       },
       {
@@ -84,7 +84,7 @@
         "start": "jul/2019",
         "end": "dez/2022",
         "description": [
-          "Formação em técnico de informática no <a class='link-ifes' href='https://cachoeiro.ifes.edu.br/cursos/tecnicos/informatica' target='_blank'>Instituto Federal do Espírito Santo</a> com período total de 1.200 horas."
+          "Formação em técnico de informática no <a class='link-ifes' href='https://cachoeiro.ifes.edu.br/cursos/tecnicos/informatica' target='_blank'>Instituto Federal do Espírito Santo</a> com período total de 1.200 horas e duração média de 2 anos. Foi aqui que desenvolvi minha <b>1ª aplicação web da vida</b> através do <b>Projeto Integrador</b> na finalização do curso."
         ]
       }
     ],
@@ -94,9 +94,9 @@
         "start": "nov/2025",
         "end": "Atual",
         "description": [
-          "Atualmente no desenvolvimento de novas funcionalidades do sistema ERP de gerenciamento de clínicas da empresa <a class='link-med-corporate' href='https://medcorporate.com.br' target='_blank'>Med Corporate</a>, responsável por gerir todas as clínicas credenciadas, bem como, seus serviços prestados aos associados (clientes) da empresa. Desenvolvido em <b>TypeScript</b> utlizando o runtime <b>Deno</b> no banckend com <b>ViteJS</b> no frontend e <b>MySQL</b> como banco de dados.",
-          "Em paralelo a isso também sou responsável por coordenar a equipe encarregada de cadastrar e organizar as clínicas e seus serviços no sistema instruindo-os a como utilizar suas funcionalidades, coletar os dados nescessários e padroniza-los para cadastro, como também, auxiliando em qualquer questão que venha a surgir com relação ao sistema.",
-          "Acompanho também o desenvolvimento e manutenção do sistema ERP dos associados (clientes que utilizam os serviços das clínicas credenciadas e de Telemedicina) que gerencia todo o cadastro dos associados incluindo listagem de cobranças, dados pessoais e o tipo de plano contratado, responsável também por controlar o acesso ao portal de Telemedicina. Também gero relatórios interativos e personalizáveis no <b>Metabase</b> com querys SQL para analisar informações importantes dos associados e compartilhar insights com a equipe em geral, sempre respeitando as diretrizes da LGPD.",
+          "Atuando no desenvolvimento do sistema ERP de gerenciamento da rede de clínicas da empresa <a class='link-med-corporate' href='https://medcorporate.com.br' target='_blank'>MED Corporate</a>, responsável por gerir todas as clínicas credenciadas, bem como, seus serviços prestados aos associados (clientes) da empresa. Desenvolvido em <b>TypeScript</b> utlizando <b>Vite</b> + <b>Tailwind CSS</b> no frontend, <b>NodeJS</b> no backend e <b>MySQL</b> como banco de dados.",
+          "Em paralelo a isso também sou responsável por coordenar a equipe encarregada de cadastrar e organizar as clínicas e seus serviços no sistema instruindo-os a como utilizar suas funcionalidades, coletar os dados nescessários e padroniza-los para cadastro, como também, auxiliando em qualquer questão que venha a surgir com relação ao sistema em sí ou a outros sistemas contratados pela empresa.",
+          "Acompanho também o desenvolvimento e manutenção do sistema ERP dos associados (clientes que utilizam os serviços das clínicas credenciadas e de Telemedicina) que gerencia todo o cadastro dos associados: cobranças, dados pessoais, tipo de plano contratado e etc; responsável também por controlar o acesso ao portal de Telemedicina. Também gero relatórios interativos e personalizáveis no <b>Metabase</b> com querys SQL para analisar dados relevantes e compartilhar insights com a equipe em geral, sempre respeitando as diretrizes da LGPD.",
           "Tanto os sistemas quanto o Metabase ficam hospedados no <b>Amazon Lightsail</b> da <b>AWS (Amazon Web Services)</b> que gerencio juntamente com outro desenvolvedor da equipe."
         ]
       },
@@ -105,7 +105,8 @@
         "start": "jul/2024",
         "end": "nov/2025",
         "description": [
-          "Atividade exercida no setor de suporte dos sistemas (Vision, Faturamento Comercial, Faturamento Industrial e CTe) da empresas <a class='link-prodados' href='http://site.prodadosinformatica.com.br' target='_blank'>Prodados</a> auxiliando os clientes em dúvidas e dificuldades gerais, relatando erros e bugs, e propondo ideias e funcionalidades para a nova versão do sistema Vision desenvolvido em <b>C#</b>, que é o principal sistema da empresa."
+          "Atividade exercida no setor de suporte dos sistemas (Vision, Faturamento Comercial, Faturamento Industrial e CTe) da empresa <a class='link-prodados' href='http://site.prodadosinformatica.com.br' target='_blank'>Prodados</a> auxiliando os clientes em dúvidas e dificuldades gerais, relatando erros e bugs, e propondo ideias e funcionalidades para a nova versão do sistema Vision desenvolvido em <b>C#</b>, que é o principal sistema da empresa.",
+          "Foi através dessa experiência que consegui meu primeiro contato com o mercado formal de trabalho dentro do contexto de tecnologia, tendo também um <b>contato direto com os clientes da empresa</b>, seja online ou presencial, prestando o suporte nescessário para que pudessem interagir com o sistema da melhor forma e com a menor quantidade de dúvidas possível."
         ]
       },
       {
@@ -113,7 +114,7 @@
         "start": "set/2021",
         "end": "out/2022",
         "description": [
-          "Estudante de desenvolvimento web full-stack na <a class='link-trybe' href='https://www.betrybe.com/formacao-desenvolvimento-web' target='_blank'>Trybe</a> aplicando na prática o aprendizado adquirido, desenvolvendo projetos em time e individualmente, mantendo sempre uma conduta de mercado com foco em resultado, qualidade, soft-skills e metodologias ágeis."
+          "Estudante de desenvolvimento web full-stack na <a class='link-trybe' href='https://www.betrybe.com/formacao-desenvolvimento-web' target='_blank'>Trybe</a> aplicando na prática o aprendizado adquirido, desenvolvendo <b>+30 projetos</b> em time e individualmente, mantendo sempre uma conduta de mercado com <b>foco em resultado</b>, <b>qualidade</b>, <b>soft-skills</b> e <b>metodologias ágeis</b>."
         ]
       }
     ],
@@ -246,7 +247,7 @@
       },
       {
         "title": "Mocha",
-        "image": "https://www.svgrepo.com/show/354079/mocha.svg",
+        "image": "https://mochajs.org/images/mocha-logo.svg",
         "imageAltText": "mocha",
         "redirectLink": "https://mochajs.org"
       },
