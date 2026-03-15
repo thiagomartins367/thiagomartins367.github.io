@@ -4,12 +4,11 @@
     "title": "Full-Stack Developer",
     "description": {
       "paragraphs": [
-        "Minha trajetória no mundo do desenvolvimento começa no meu <b>Curso Técnico de Informática</b>, onde tive contato com algumas linguagens de programação (Python e C#). 👨‍🔧🖥️",
-        "E na reta final deste curso quando tive que desenvolver um sistema com persistência em banco de dados utilizando: <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>NodeJS</b> e <b>MySQL</b>.",
-        "Foi a partir daí que meu interesse pelo desenvolvimento de software se intensificou. 👨‍💻",
-        "Mais a frente nessa trajetória encontrei a <a class='link-trybe' href='https://www.betrybe.com/formacao-desenvolvimento-web' target='_blank'>Trybe</a>, onde tive não só um contato, mas sim uma verdadeira imersão no mundo DEV, desde o básico (Git & GitHub) até o avançado, que com muita prática nos mais diversos projetos e um ensino de qualidade pude aprender tudo que um DEV Full Stack precisa para atender as exigências do mercado.",
-        "Ingressei no meu primeiro emprego formal no ramo de tecnologia em jul/2024 na empresa <a class='link-prodados' href='http://site.prodadosinformatica.com.br' target='_blank'>Prodados</a> onde exerci a função de <b>Analista de Suporte de Sistemas</b> (veja mais na seção \"Resumo\"). Foi meu primeiro contato com um trabalho formal que seguia horário fixo, hierarquia empresarial e entrega de resultado, também foi onde consegui a oportunidade de ter um contato \"cara-a-cara\" com os clientes utilizando das minhas soft-skills para me comunicar da maneira mais clara e assertiva possível sempre em busca de entregar a melhor solução para cada demanda.",
-        "Atualmente trabalho como <b>Desenvolvedor Full-Stack Pleno</b> na empresa <a class='link-med-corporate' href='https://medcorporate.com.br' target='_blank'>MED Corporate</a> no desenvolvimento e acompanhamento de dois sistemas ERP hospedados na <b>AWS (Amazon Web Services)</b> responsáveis por gerenciar os associados (clientes) e as clínicas credenciadas da empresa, coordenando também, a equipe encarregada de gerir tudo isso através desses dois sistemas."
+        "Tenho 24 anos e trabalho como <b>Desenvolvedor Full-Stack Pleno</b> na <a class='link-med-corporate' href='https://medcorporate.com.br' target='_blank'>MED Corporate</a>, onde construo e acompanho dois sistemas ERP na AWS que gerenciam associados e clínicas credenciadas no setor de saúde. No dia a dia, além de codar, coordeno a equipe responsável por operar esses sistemas — o que me colocou cedo num lugar onde <b>código e gestão de pessoas se cruzam.</b> 🚀",
+        "Minha relação com programação começou no meu curso <b>Técnico de Informática</b>, com Python e C#. Foi lá que desenvolvi meu primeiro sistema com banco de dados usando HTML, CSS, JavaScript, Node.js e MySQL — e foi lá também que entendi que era isso que eu queria fazer. Depois, a <b>formação Full Stack</b> pela <a class='link-trybe' href='https://www.betrybe.com/formacao-desenvolvimento-web' target='_blank'>Trybe</a> aprofundou tudo: do Git ao deploy, passando por dezenas de projetos práticos que me prepararam de verdade pro mercado. 💻",
+        "Meu primeiro emprego formal na área foi como <b>Analista de Suporte de Sistemas</b> na <a class='link-prodados' href='http://site.prodadosinformatica.com.br' target='_blank'>Prodados</a>. Ali descobri algo que muitos devs subestimam: a importância de ouvir o cliente, entender a dor real e comunicar a solução de forma clara. Essa experiência moldou a forma como penso software até hoje — sempre com o <b>usuário final em mente</b>. 🤝",
+        "Hoje, integro <b>inteligência artificial</b> ao meu fluxo de desenvolvimento com ferramentas como o <b>Claude Code</b>, buscando entregar mais rápido sem abrir mão da qualidade. Acredito que o melhor dev não é o que sabe mais linguagens, é o que <b>resolve problemas reais com as ferramentas certas.</b> 🧠",
+        "Estou só no começo. 👊"
       ]
     },
     "picture": "/assets/thiago-martins.jpg",
@@ -136,6 +135,12 @@
         "image": "/assets/aspnet-logo.svg",
         "imageAltText": "asp.net",
         "redirectLink": "https://dotnet.microsoft.com/pt-br/learn/aspnet/what-is-aspnet-core#:~:text=ASP.NET%20Core-,Performance,-Performance%20is%20a"
+      },
+      {
+        "title": "Code",
+        "image": "/assets/claude-ai.svg",
+        "imageAltText": "claude code",
+        "redirectLink": "https://claude.com/product/claude-code"
       },
       {
         "title": "NodeJS",
