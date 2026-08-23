@@ -1,14 +1,13 @@
 {
   "profile": {
     "myName": "Thiago Martins",
-    "title": "Full-Stack Developer",
+    "title": "Developer",
     "description": {
       "paragraphs": [
-        "Tenho 24 anos e trabalho como <b>Desenvolvedor Full-Stack Pleno</b> na <a class='link-med-corporate' href='https://medcorporate.com.br' target='_blank'>MED Corporate</a>, onde construo e acompanho dois sistemas ERP na AWS que gerenciam associados e clínicas credenciadas no setor de saúde. No dia a dia, além de codar, coordeno a equipe responsável por operar esses sistemas — o que me colocou cedo num lugar onde <b>código e gestão de pessoas se cruzam.</b> 🚀",
-        "Minha relação com programação começou no meu curso <b>Técnico de Informática</b>, com Python e C#. Foi lá que desenvolvi meu primeiro sistema com banco de dados usando HTML, CSS, JavaScript, Node.js e MySQL — e foi lá também que entendi que era isso que eu queria fazer. Depois, a <b>formação Full Stack</b> pela <a class='link-trybe' href='https://www.betrybe.com/formacao-desenvolvimento-web' target='_blank'>Trybe</a> aprofundou tudo: do Git ao deploy, passando por dezenas de projetos práticos que me prepararam de verdade pro mercado. 💻",
-        "Meu primeiro emprego formal na área foi como <b>Analista de Suporte de Sistemas</b> na <a class='link-prodados' href='http://site.prodadosinformatica.com.br' target='_blank'>Prodados</a>. Ali descobri algo que muitos devs subestimam: a importância de ouvir o cliente, entender a dor real e comunicar a solução de forma clara. Essa experiência moldou a forma como penso software até hoje — sempre com o <b>usuário final em mente</b>. 🤝",
-        "Hoje, integro <b>inteligência artificial</b> ao meu fluxo de desenvolvimento com ferramentas como o <b>Claude Code</b>, buscando entregar mais rápido sem abrir mão da qualidade. Acredito que o melhor dev não é o que sabe mais linguagens, é o que <b>resolve problemas reais com as ferramentas certas.</b> 🧠",
-        "Estou só no começo. 👊"
+        "Sou <b>Desenvolvedor Full-Stack Pleno</b> na <a class='link-med-corporate' href='https://medcorporate.com.br' target='_blank'>MED Corporate</a>, onde arquitetei um <b>ERP multi-tenant</b> que conecta associados, unidades de saúde, convênios e administradores — e hoje desenvolvo todo o back-end dele, hospedado na AWS. No dia a dia, além de codar, coordeno a equipe de desenvolvimento do back-end e auxilio o time de front-end — o que me colocou cedo num lugar onde código e liderança técnica se cruzam.",
+        "Minha relação com programação começou no meu curso <b>Técnico de Informática</b>, com HTML, CSS, JavaScript e Python. Foi lá que desenvolvi meu primeiro sistema com banco de dados — e que entendi que era isso que eu queria fazer. Depois, a <b>Formação Full Stack</b> pela <a class='link-trybe' href='https://www.betrybe.com/formacao-desenvolvimento-web' target='_blank'>Trybe</a> aprofundou tudo: do Git ao deploy, passando por dezenas de projetos práticos que me prepararam de verdade pro mercado.",
+        "Meu primeiro emprego formal na área foi como <b>Analista de Suporte de Sistemas</b> na <a class='link-prodados' href='http://site.prodadosinformatica.com.br' target='_blank'>Prodados</a>. Ali descobri algo que muitos subestimam: a importância de ouvir o cliente, entender a dor real e comunicar a solução de forma clara. Essa experiência moldou a forma como penso software até hoje — sempre com o <b>usuário final em mente</b>.",
+        "Hoje, integro <b>inteligência artificial</b> ao meu fluxo de desenvolvimento com ferramentas como o <b>Claude Code</b> — entregando mais rápido, mas entendendo e revisando cada linha que vai pra produção. Acredito que o melhor dev não é o que sabe mais linguagens, é o que <b>resolve problemas reais com as ferramentas certas!</b>"
       ]
     },
     "picture": "/assets/thiago-martins.jpg",
@@ -27,8 +26,8 @@
       },
       {
         "name": "Email",
-        "username": "thiago17thiago@gmail.com",
-        "url": "mailto:thiago17thiago@gmail.com",
+        "username": "contato@thiagodmartins.dev",
+        "url": "mailto:contato@thiagodmartins.dev",
         "image": "/assets/mail-icon.svg"
       }
     ],
@@ -48,7 +47,8 @@
         "start": "jan/2024",
         "end": "fev/2024",
         "description": [
-          "Promovido pela <a class='link-trybe' href='https://www.betrybe.com/cursos/bootcamp-gratuito-aws-ia-generativa' target='_blank'>Trybe</a> o bootcamp aborda os <b>fundamentos da IA</b> e demonstra como essa tecnologia, a primeira vista muito complexa, pode ser usada de forma mais facilitada utilizando as ferramentas que a <b>AWS (Amazon Web Services)</b> oferece: <i>CodeWhisperer</i>, <i>Amazon Bedrock</i>, <i>Amazon Sagemaker<i/>."
+          "Bootcamp promovido pela <a class='link-trybe' href='https://www.betrybe.com/cursos/bootcamp-gratuito-aws-ia-generativa' target='_blank'>Trybe</a> sobre os <b>fundamentos da IA Generativa</b> e sua aplicação prática no desenvolvimento, usando o ecossistema da <b>AWS: Amazon Bedrock, Amazon SageMaker e CodeWhisperer (atual Amazon Q Developer)</b>.",
+          "Foi meu primeiro contato estruturado com <b>IA aplicada ao desenvolvimento de software</b> — a origem do fluxo de trabalho com IA que hoje uso profissionalmente, com ferramentas como o <b>Claude Code</b>."
         ]
       },
       {
@@ -56,18 +56,17 @@
         "start": "out/2023",
         "end": "fev/2024",
         "description": [
-          "Promovida pela <a class='link-trybe' href='https://www.betrybe.com' target='_blank'>Trybe</a> a aceleração aborda os fundamentos e recursos do <b>.NET e a linguagem C#</b>, <b>POO com C#</b>, <b>ASP.NET & WebApi</b>, <b>LINQ</b>, <b>SQL Server & Entity Framework</b>, <b>JWT em API REST</b>, <b>Deployment</b> e <b>Microsserviços</b>.",
-          "Todo o período de aprendizado é baseado em teoria seguida da prática nos mais diversos projetos e exercícios de fixação, a API <a class='link' href='https://github.com/thiagomartins367/Trybe-project-csharp-trybe-hotel' target='_blank'>TybeHotel</a> é o projeto mais completo e coloca em prática a maior parte do conteúdo dessa aceleração."
+          "Aceleração promovida pela <a class='link-trybe' href='https://www.betrybe.com' target='_blank'>Trybe</a> com <b>170 horas</b> de teoria e prática nos fundamentos do ecossistema <b>.NET</b>: linguagem <b>C# e POO, ASP.NET & WebApi, LINQ, SQL Server & Entity Framework</b>, autenticação e autorização com <b>JWT em APIs REST, testes com xUnit, Docker, Microsserviços</b> e <b>deploy com Azure</b>.",
+          "Cada bloco de conteúdo é consolidado em projetos práticos — o mais completo é a API <a class='link' href='https://github.com/thiagomartins367/Trybe-project-csharp-trybe-hotel' target='_blank'>TrybeHotel</a>, que coloca em prática a maior parte da aceleração. Foi aqui que começou a <b>stack .NET/C#</b> que hoje uso profissionalmente."
         ]
       },
       {
-        "title": "Design de User Experience (UX)",
+        "title": "Certificado Profissional de UX Design — Google",
         "start": "mar/2023",
         "end": "jul/2023",
         "description": [
-          "O programa é promovido pela <a class='link-coursera' href='https://www.coursera.org/programs/trybe-google-learning-program-hrevt?collectionId=twDTY&currentTab=CATALOG&productId=VMM1lDgkEeym8A7cXo-JEw&productType=s12n&showMiniModal=true' target='_blank'>Coursera</a> e inclui <b>+200 horas de conteúdo</b> e centenas de atividades práticas e avaliações que simulam situações reais do design de experiência do usuário (UX), essenciais para o sucesso no local de trabalho.",
-          "Conteúdo altamente interativo e desenvolvido por funcionários do <b>Google</b> com décadas de experiência em design de UX.",
-          "Envolve o processo de design do início ao fim, incluindo: como ter empatia com os usuários; definir as dificuldades dos usuários; apresentar ideias para soluções de design; criar wireframes, maquetes e protótipos; realizar estudos de usabilidade para testar projetos; iterar designs com base em feedback; compreender Sprints de Design."
+          "<b>Certificado Profissional do Google</b> com <b>+200 horas</b> de conteúdo e centenas de atividades práticas, cursado pela <a class='link-coursera' href='https://www.coursera.org/programs/trybe-google-learning-program-hrevt?collectionId=twDTY&currentTab=CATALOG&productId=VMM1lDgkEeym8A7cXo-JEw&productType=s12n&showMiniModal=true' target='_blank'>Coursera</a> com acesso disponibilizado pela Trybe. Cobre o processo de design de ponta a ponta: empatia com usuários, <b>UX Research</b>, definição de problemas, ideação de soluções, criação de <b>wireframes, mockups e protótipos, estudos de usabilidade</b>, iteração com base em feedback e <b>Design Sprints</b>.",
+          "Trago esse repertório para o desenvolvimento: ele me ajuda a dialogar com design e front-end e a construir sistemas pensando em quem vai usá-los — o mesmo olhar de <b>usuário final em mente</b> que carrego desde a Prodados."
         ]
       },
       {
@@ -75,7 +74,7 @@
         "start": "set/2021",
         "end": "out/2022",
         "description": [
-          "Formação em desenvolvimento web full-stack na <a class='link-trybe' href='https://www.betrybe.com/formacao-desenvolvimento-web' target='_blank'>Trybe</a> com período total de <b>1.500 horas de conteúdos práticos</b>, <b>+30 projetos desenvolvidos</b> em time e individualmente aplicando em conjunto metodologias ágeis e habilidades comportamentais (Soft-Skills)."
+          "Formação intensiva pela <a class='link-trybe' href='https://www.betrybe.com/formacao-desenvolvimento-web' target='_blank'>Trybe</a> em desenvolvimento web full-stack: <b>+1.500 horas de conteúdo</b> e <b>+30 projetos desenvolvidos</b> em equipe e individualmente, simulando o dia a dia do mercado — versionamento com Git em fluxo de equipe, code review, <b>metodologias ágeis</b> (Scrum e Kanban) e entregas com prazo. Do <b>Frontend</b> (React, Redux) ao <b>Backend</b> (Node.js, Express, MySQL, MongoDB, Docker, TypeScript), passando por <b>Ciência da Computação</b> com Python."
         ]
       },
       {
@@ -83,7 +82,7 @@
         "start": "jul/2019",
         "end": "dez/2022",
         "description": [
-          "Formação em técnico de informática no <a class='link-ifes' href='https://cachoeiro.ifes.edu.br/cursos/tecnicos/informatica' target='_blank'>Instituto Federal do Espírito Santo</a> com período total de 1.200 horas e duração média de 2 anos. Foi aqui que desenvolvi minha <b>1ª aplicação web da vida</b> através do <b>Projeto Integrador</b> na finalização do curso."
+          "Curso técnico de <b>1.200 horas</b> no <a class='link-ifes' href='https://cachoeiro.ifes.edu.br/cursos/tecnicos/informatica' target='_blank'>Instituto Federal do Espírito Santo</a>, onde tive meu primeiro contato estruturado com tecnologia: <b>lógica de programação</b> (com Python, JavaScript e C#), <b>modelagem e banco de dados</b>, <b>análise e projeto de sistemas</b>, redes e <b>programação para web</b>. Foi aqui que desenvolvi minha <b>1ª aplicação web da vida</b>, através do <b>Projeto Integrador</b> na finalização do curso."
         ]
       }
     ],
@@ -93,10 +92,10 @@
         "start": "nov/2025",
         "end": "Atual",
         "description": [
-          "Atuando no desenvolvimento do sistema ERP de gerenciamento da rede de clínicas da empresa <a class='link-med-corporate' href='https://medcorporate.com.br' target='_blank'>MED Corporate</a>, responsável por gerir todas as clínicas credenciadas, bem como, seus serviços prestados aos associados (clientes) da empresa. Desenvolvido em <b>TypeScript</b> utilizando <b>Vite + Tailwind CSS</b> no frontend, <b>WebApi C# + Entity Framework (EF)</b> no backend e <b>MySQL</b> como banco de dados.",
-          "Em paralelo a isso também sou responsável por coordenar a equipe encarregada de cadastrar e organizar as clínicas e seus serviços no sistema instruindo-os a como utilizar suas funcionalidades, coletar os dados nescessários e padroniza-los para cadastro, como também, auxiliando em qualquer questão que venha a surgir com relação ao sistema em sí ou a outros sistemas contratados pela empresa.",
-          "Acompanho também o desenvolvimento e manutenção do sistema ERP dos associados (clientes que utilizam os serviços das clínicas credenciadas e de Telemedicina) que gerencia todo o cadastro dos associados: cobranças, dados pessoais, tipo de plano contratado e etc; responsável também por controlar o acesso ao portal de Telemedicina. Também gero relatórios interativos e personalizáveis no <b>Metabase</b> com querys SQL para analisar dados relevantes e compartilhar insights com a equipe em geral, sempre respeitando as diretrizes da LGPD.",
-          "Tanto os sistemas quanto o Metabase ficam hospedados no <b>Amazon Lightsail</b> da <b>AWS (Amazon Web Services)</b> que gerencio juntamente com outro desenvolvedor da equipe."
+          "Arquitetei o <b>ERP multi-tenant</b> que gerencia a rede de unidades de saúde credenciadas da <a class='link-med-corporate' href='https://medcorporate.com.br' target='_blank'>MED Corporate</a> e os serviços prestados aos associados — conectando associados, unidades, convênios e administradores em uma única plataforma, com controle de acesso por <b>permissões granulares</b>. Desenvolvo todo o back-end em <b>WebApi C# (.NET Core) + Entity Framework</b>, com <b>MySQL</b> e <b>Docker</b>; o front-end, em <b>React/TypeScript com Tailwind CSS</b>, fica com o time que apoio tecnicamente.",
+          "Além do código, <b>coordeno a equipe de desenvolvimento do back-end</b> e auxilio o time de front-end em decisões técnicas. Também coordeno a equipe responsável por cadastrar e organizar as unidades e seus serviços no sistema — instruindo o uso das funcionalidades e dando suporte a qualquer questão relacionada aos sistemas da empresa.",
+          "Acompanho ainda o desenvolvimento e a manutenção do <b>ERP dos associados</b>, que gerencia cadastros, cobranças e planos contratados, além de controlar o acesso ao portal de Telemedicina — sistema em processo de unificação com a nova plataforma. Gero relatórios interativos e personalizáveis no <b>Metabase</b> com queries SQL, compartilhando insights com a equipe em conformidade com a <b>LGPD</b>.",
+          "Os sistemas e o Metabase ficam hospedados no <b>Amazon Lightsail (AWS)</b>, cuja infraestrutura gerencio em parceria com outro desenvolvedor da equipe."
         ]
       },
       {
@@ -104,16 +103,8 @@
         "start": "jul/2024",
         "end": "nov/2025",
         "description": [
-          "Atividade exercida no setor de suporte dos sistemas (Vision, Faturamento Comercial, Faturamento Industrial e CTe) da empresa <a class='link-prodados' href='http://site.prodadosinformatica.com.br' target='_blank'>Prodados</a> auxiliando os clientes em dúvidas e dificuldades gerais, relatando erros e bugs, e propondo ideias e funcionalidades para a nova versão do sistema Vision desenvolvido em <b>C#</b>, que é o principal sistema da empresa.",
-          "Foi através dessa experiência que consegui meu primeiro contato com o mercado formal de trabalho dentro do contexto de tecnologia, tendo também um <b>contato direto com os clientes da empresa</b>, seja online ou presencial, prestando o suporte nescessário para que pudessem interagir com o sistema da melhor forma e com a menor quantidade de dúvidas possível."
-        ]
-      },
-      {
-        "title": "Pessoa Estudante",
-        "start": "set/2021",
-        "end": "out/2022",
-        "description": [
-          "Estudante de desenvolvimento web full-stack na <a class='link-trybe' href='https://www.betrybe.com/formacao-desenvolvimento-web' target='_blank'>Trybe</a> aplicando na prática o aprendizado adquirido, desenvolvendo <b>+30 projetos</b> em time e individualmente, mantendo sempre uma conduta de mercado com <b>foco em resultado</b>, <b>qualidade</b>, <b>soft-skills</b> e <b>metodologias ágeis</b>."
+          "Atuei no suporte aos sistemas da <a class='link-prodados' href='http://site.prodadosinformatica.com.br' target='_blank'>Prodados</a> — Vision (principal produto da empresa, sistema desktop desenvolvido em C#), Faturamento Comercial, Faturamento Industrial e CTe — auxiliando clientes em dúvidas e dificuldades, relatando erros e bugs ao time de desenvolvimento e propondo ideias e funcionalidades para a nova versão do Vision, desenvolvida em <b>C# com ASP.NET</b>.",
+          "Foi meu primeiro emprego formal em tecnologia, com <b>contato direto com os clientes</b>, online e presencial. Ali aprendi na prática a ouvir quem usa o sistema, entender a dor por trás da dúvida e traduzir isso em melhorias — a base da mentalidade de \"usuário final em mente\" que carrego até hoje como desenvolvedor."
         ]
       }
     ],
@@ -137,10 +128,10 @@
         "redirectLink": "https://dotnet.microsoft.com/pt-br/learn/aspnet/what-is-aspnet-core#:~:text=ASP.NET%20Core-,Performance,-Performance%20is%20a"
       },
       {
-        "title": "Code",
+        "title": "Claude",
         "image": "/assets/claude-ai.svg",
         "imageAltText": "claude code",
-        "redirectLink": "https://claude.com/product/claude-code"
+        "redirectLink": "https://claude.com/solutions/coding"
       },
       {
         "title": "NodeJS",
@@ -258,7 +249,7 @@
       },
       {
         "title": "Chai",
-        "image": "https://www.svgrepo.com/show/353546/chai.svg",
+        "image": "https://www.chaijs.com/img/chai-logo-small.png",
         "imageAltText": "chai",
         "redirectLink": "https://www.chaijs.com"
       },
