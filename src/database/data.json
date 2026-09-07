@@ -4,10 +4,10 @@
     "title": "Developer",
     "description": {
       "paragraphs": [
-        "Sou <b>Desenvolvedor Full-Stack Pleno</b> na <a class='link-med-corporate' href='https://medcorporate.com.br' target='_blank'>MED Corporate</a>, onde arquitetei um <b>ERP multi-tenant</b> que conecta associados, unidades de saúde, convênios e administradores — e hoje desenvolvo todo o back-end dele, hospedado na AWS. No dia a dia, além de codar, coordeno a equipe de desenvolvimento do back-end e auxilio o time de front-end — o que me colocou cedo num lugar onde código e liderança técnica se cruzam.",
-        "Minha relação com programação começou no meu curso <b>Técnico de Informática</b>, com HTML, CSS, JavaScript e Python. Foi lá que desenvolvi meu primeiro sistema com banco de dados — e que entendi que era isso que eu queria fazer. Depois, a <b>Formação Full Stack</b> pela <a class='link-trybe' href='https://www.betrybe.com/formacao-desenvolvimento-web' target='_blank'>Trybe</a> aprofundou tudo: do Git ao deploy, passando por dezenas de projetos práticos que me prepararam de verdade pro mercado.",
-        "Meu primeiro emprego formal na área foi como <b>Analista de Suporte de Sistemas</b> na <a class='link-prodados' href='http://site.prodadosinformatica.com.br' target='_blank'>Prodados</a>. Ali descobri algo que muitos subestimam: a importância de ouvir o cliente, entender a dor real e comunicar a solução de forma clara. Essa experiência moldou a forma como penso software até hoje — sempre com o <b>usuário final em mente</b>.",
-        "Hoje, integro <b>inteligência artificial</b> ao meu fluxo de desenvolvimento com ferramentas como o <b>Claude Code</b> — entregando mais rápido, mas entendendo e revisando cada linha que vai pra produção. Acredito que o melhor dev não é o que sabe mais linguagens, é o que <b>resolve problemas reais com as ferramentas certas!</b>"
+        "Sou <b>Desenvolvedor Full-Stack Pleno</b> com foco em Back-end. Trabalho principalmente com <b>C#, .NET e ASP.NET</b>, construindo APIs e a camada de dados de aplicações web apoiando no front-end com <b>React e TypeScript</b> quando o time precisa.",
+        "Minha relação com programação começou no curso <b>Técnico de Informática</b>, com HTML, CSS, JavaScript e Python. Foi lá que desenvolvi meu primeiro sistema com banco de dados — e que entendi que era isso que eu queria fazer. Depois, a <b>Formação Full Stack</b> pela <a class='link-trybe' href='https://www.betrybe.com/formacao-desenvolvimento-web' target='_blank'>Trybe</a> aprofundou tudo: do Git ao deploy, passando por dezenas de projetos práticos que me prepararam de verdade pro mercado. A virada para o <b>.NET</b> veio de uma escolha minha: estudei a stack por conta antes de trabalhar com ela, e hoje é onde construo a maior parte do que faço.",
+        "Meu primeiro emprego formal na área foi como <b>Analista de Suporte de Sistemas</b>. Ali descobri algo que muitos subestimam: a importância de ouvir o cliente, entender a dor real e comunicar a solução de forma clara. Essa experiência moldou a forma como penso software até hoje — sempre com o <b>usuário final em mente</b>.",
+        "Encaro cada tecnologia nova como oportunidade, não como obstáculo. Foi assim com o .NET, é assim com IA, e será assim com o que vier depois. Acredito que o melhor dev não é o que sabe mais linguagens, é o que <b>resolve problemas reais com as ferramentas certas</b>."
       ]
     },
     "picture": "/assets/thiago-martins.jpg",
@@ -34,8 +34,8 @@
     "otherInformations": [
       {
         "name": "Currículo",
-        "subtitle": "curriculo-thiago.pdf",
-        "url": "https://drive.google.com/u/0/uc?id=1_EosO81iYodoGtQlWFCMmbzZLMq8_Rhm&export=download",
+        "subtitle": "curriculo-thiago-martins.pdf",
+        "url": "https://drive.google.com/u/0/uc?id=1p-nZcYnTsBx4Wqf7hc38MBZY3C6ewwYY&export=download",
         "image": "/assets/curriculum.svg"
       }
     ]
@@ -89,13 +89,18 @@
     "experience": [
       {
         "title": "Desenvolvedor Full-Stack Pleno",
-        "start": "nov/2025",
-        "end": "Atual",
+        "start": "fev/2026",
+        "end": "atual",
         "description": [
-          "Arquitetei o <b>ERP multi-tenant</b> que gerencia a rede de unidades de saúde credenciadas da <a class='link-med-corporate' href='https://medcorporate.com.br' target='_blank'>MED Corporate</a> e os serviços prestados aos associados — conectando associados, unidades, convênios e administradores em uma única plataforma, com controle de acesso por <b>permissões granulares</b>. Desenvolvo todo o back-end em <b>WebApi C# (.NET Core) + Entity Framework</b>, com <b>MySQL</b> e <b>Docker</b>; o front-end, em <b>React/TypeScript com Tailwind CSS</b>, fica com o time que apoio tecnicamente.",
-          "Além do código, <b>coordeno a equipe de desenvolvimento do back-end</b> e auxilio o time de front-end em decisões técnicas. Também coordeno a equipe responsável por cadastrar e organizar as unidades e seus serviços no sistema — instruindo o uso das funcionalidades e dando suporte a qualquer questão relacionada aos sistemas da empresa.",
-          "Acompanho ainda o desenvolvimento e a manutenção do <b>ERP dos associados</b>, que gerencia cadastros, cobranças e planos contratados, além de controlar o acesso ao portal de Telemedicina — sistema em processo de unificação com a nova plataforma. Gero relatórios interativos e personalizáveis no <b>Metabase</b> com queries SQL, compartilhando insights com a equipe em conformidade com a <b>LGPD</b>.",
-          "Os sistemas e o Metabase ficam hospedados no <b>Amazon Lightsail (AWS)</b>, cuja infraestrutura gerencio em parceria com outro desenvolvedor da equipe."
+          "Atuo no desenvolvimento e na evolução de aplicações web na <a class='link-avoque-consultores' href='https://avoque.com.br' target='_blank'>Avoque Consultores</a>, com foco no back-end: APIs REST, modelagem de dados e implementação de regras de negócio, aplicando princípios de POO e SOLID. Escrevo testes automatizados, participo de revisões de código e colaboro com o front-end em decisões técnicas e na integração entre as camadas. O dia a dia é conduzido em equipe, com metodologias ágeis e versionamento com Git."
+        ]
+      },
+      {
+        "title": "Desenvolvedor Full-Stack Pleno",
+        "start": "nov/2025",
+        "end": "fev/2026",
+        "description": [
+          "Atuei no desenvolvimento de aplicações web na <a class='link-med-corporate' href='https://medcorporate.com.br' target='_blank'>MED Corporate</a>, com foco no back-end, apoiando também o front-end. Apliquei boas práticas de código e testes automatizados em equipe com metodologias ágeis e versionamento com Git."
         ]
       },
       {
