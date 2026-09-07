@@ -44,6 +44,16 @@
   color: #1e5045;
 }
 
+.link-avoque-consultores {
+  color: #ffdd95;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.link-avoque-consultores:hover {
+  color: #ffdb70;
+}
+
 .link {
   color: blue;
   font-weight: 400;
