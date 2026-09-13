@@ -34,7 +34,7 @@
 .div-profile-picture {
   align-items: center;
   background-color: #363636;
-  border-radius: 30px;
+  border-radius: 100%;
   display: flex;
   height: 150px;
   justify-content: center;
@@ -57,9 +57,9 @@
 }
 
 .div-profile-picture img {
-  border-radius: 30px;
-  height: 150px;
-  width: 150px;
+  border-radius: 100%;
+  height: 160px;
+  width: 160px;
 }
 
 .section-profile-more-info {
@@ -140,13 +140,13 @@
   }
 
   .div-profile-picture {
-    border-radius: 30px;
+    border-radius: 100%;
     height: 120px;
     width: 120px;
   }
 
   .div-profile-picture img {
-    border-radius: 30px;
+    border-radius: 100%;
     height: 120px;
     width: 120px;
   }
@@ -290,13 +290,13 @@
   }
 
   .div-profile-picture {
-    border-radius: 20px;
+    border-radius: 100%;
     height: 80px;
     width: 80px;
   }
 
   .div-profile-picture img {
-    border-radius: 20px;
+    border-radius: 100%;
     height: 80px;
     width: 80px;
   }

@@ -18,8 +18,8 @@
       "sizes": "512x512"
     },
     {
-      "src": "/public/assets/thiago-martins.jpg",
-      "type": "image/jpg",
+      "src": "/public/assets/thiago-martins.png",
+      "type": "image/png",
       "sizes": "268x263"
     }
   ],
