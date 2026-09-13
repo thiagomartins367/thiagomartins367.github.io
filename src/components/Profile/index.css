@@ -36,7 +36,7 @@
   background-color: #363636;
   border-radius: 30px;
   display: flex;
-  height: 147px;
+  height: 150px;
   justify-content: center;
   width: 150px;
 }
@@ -57,7 +57,9 @@
 }
 
 .div-profile-picture img {
-  max-width: 100px;
+  border-radius: 30px;
+  height: 150px;
+  width: 150px;
 }
 
 .section-profile-more-info {
@@ -144,8 +146,9 @@
   }
 
   .div-profile-picture img {
-    max-height: 80px;
-    max-width: 80px;
+    border-radius: 30px;
+    height: 120px;
+    width: 120px;
   }
 
   .profile-info-content {
@@ -293,8 +296,9 @@
   }
 
   .div-profile-picture img {
-    max-height: 50px;
-    max-width: 50px;
+    border-radius: 20px;
+    height: 80px;
+    width: 80px;
   }
 
   .button-menu-mobile-platforms {
