@@ -65,9 +65,12 @@ Os scripts `dev`/`start`/`build` carregam `.env.*.local` via `node -r dotenv/con
 - O deploy antigo no GitHub Pages (branch `gh-pages`) foi desativado. A história está registrada no README; não recrie esse job.
 - O GitHub Actions define `CI=true`. Com isso, o `react-scripts build` trata warnings do ESLint como erro, e os testes rodam uma única vez.
 - O CI usa Node 24 com `npm ci`, então o `package-lock.json` precisa estar sincronizado com o `package.json`. Lint e build foram validados no Node 22 e 24; no 24 aparece só um aviso de depreciação (`fs.F_OK`), que não afeta o build.
-- O Dockerfile continua com Node 18.
 - Rodar `npm run lint:styles` depois de um build local também analisa o CSS minificado em `build/` e gera milhares de erros. Apague `build/` antes.
-- O Dockerfile tem dois estágios: `development` (Node, `npm run dev`) e `production` (nginx:alpine, que instala npm e compila dentro da própria imagem).
+- **Docker** tem um Dockerfile por ambiente, ambos com Node 24:
+  - `Dockerfile.dev`, usado pelo `docker-compose.dev.yaml`: roda `npm run dev` na porta 3070, com `src/` e `public/` montados como volume para o hot reload;
+  - `Dockerfile.prod`, usado pelo `docker-compose.prod.yaml`: multi-stage, compila no estágio `node` e a imagem final só tem o `nginx:alpine` com o conteúdo de `build/` (~46 MB).
+  - Os dois copiam `package.json` e `package-lock.json` antes do código e usam `npm ci`, para aproveitar o cache de camadas do Docker.
+  - O `docker-compose.prod.yaml` exige o arquivo `.env.production.local` (crie a partir do `.example`), mesmo o nginx não usando a variável `PORT`.
 
 ## Armadilhas conhecidas
 
