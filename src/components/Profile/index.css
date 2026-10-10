@@ -121,6 +121,10 @@
   width: 30px;
 }
 
+.button-menu-mobile-platforms {
+  display: none;
+}
+
 @media screen and ( max-width : 1249px ) {
 
   .aside-profile {
@@ -200,6 +204,7 @@
   }
 
   .button-menu-mobile-platforms img {
+    display: none;
     height: 13px;
     width: 15px;
   }
@@ -304,6 +309,14 @@
     right: 16px;
     top: 16px;
     width: 40px;
+  }
+
+  .button-menu-mobile-platforms span {
+    display: none;
+  }
+
+  .button-menu-mobile-platforms img {
+    display: block;
   }
 
   .div-profile-name {
