@@ -5,7 +5,7 @@ services:
     image: dev_my-portfolio
     build: 
       context: .
-      target: development
+      dockerfile: Dockerfile.dev
     working_dir: /usr/src/dev_app-frontend
     restart: always
     env_file:

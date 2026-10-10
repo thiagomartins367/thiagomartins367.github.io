@@ -5,7 +5,7 @@ services:
     image: my-portfolio
     build: 
       context: .
-      target: production
+      dockerfile: Dockerfile.prod
     working_dir: /usr
     restart: always
     env_file:

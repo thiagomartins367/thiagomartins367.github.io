@@ -1,0 +1,20 @@
+FROM node:24-alpine AS build
+
+WORKDIR /usr/src/app-frontend
+
+COPY ["package.json", "package-lock.json", "./"]
+
+RUN npm ci
+
+COPY ["./", "./"]
+
+RUN npm run build
+
+# ----------------------------------------
+# Imagem final: apenas o nginx e os arquivos estáticos do build
+
+FROM nginx:alpine
+
+COPY --from=build /usr/src/app-frontend/build /usr/share/nginx/html
+
+EXPOSE 80
