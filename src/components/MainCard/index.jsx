@@ -14,6 +14,12 @@ function MainCard() {
   const [selectedOptionId, setSelectedOptionId] = useState(NAVBAR_OPTIONS[0].id);
   const { title, Content } = NAVBAR_OPTIONS.find(({ id }) => id === selectedOptionId);
 
+  const selectOption = (id) => {
+    if (id === selectedOptionId) return;
+    window.scrollTo(0, 0);
+    setSelectedOptionId(id);
+  };
+
   return (
     <>
       <nav className="navbar-options">
@@ -24,7 +30,7 @@ function MainCard() {
                 type="button"
                 className={ id === selectedOptionId ? 'navbar-option-active' : '' }
                 aria-pressed={ id === selectedOptionId }
-                onClick={ () => setSelectedOptionId(id) }
+                onClick={ () => selectOption(id) }
               >
                 { label }
               </button>
@@ -32,7 +38,7 @@ function MainCard() {
           ))
         }
       </nav>
-      {/* A "key" recria o card a cada troca de aba, reiniciando a animação e a rolagem */}
+      {/* A "key" recria o card a cada troca de aba, reiniciando a animação e a rolagem interna */}
       <article key={ selectedOptionId } className="article-main-card quick-animation">
         <section className="section-nav-options-title">
           <h2 className="h2-title">
