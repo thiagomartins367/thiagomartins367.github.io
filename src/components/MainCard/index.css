@@ -102,7 +102,7 @@
   width: 100%;
 }
 
-.navbar-options div:nth-child( 1 ) button {
+.navbar-options .navbar-option-active {
   color: #ffdb70;
 }
 
