@@ -1,6 +1,6 @@
 FROM node:24-alpine AS build
 
-WORKDIR /usr/src/app-frontend
+WORKDIR /usr/src/my-portfolio
 
 COPY ["package.json", "package-lock.json", "./"]
 
@@ -15,6 +15,6 @@ RUN npm run build
 
 FROM nginx:alpine
 
-COPY --from=build /usr/src/app-frontend/build /usr/share/nginx/html
+COPY --from=build /usr/src/my-portfolio/build /usr/share/nginx/html
 
 EXPOSE 80

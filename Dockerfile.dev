@@ -1,6 +1,6 @@
 FROM node:24-alpine
 
-WORKDIR /usr/src/dev_app-frontend
+WORKDIR /usr/src/dev-my-portfolio
 
 COPY ["package.json", "package-lock.json", "./"]
 

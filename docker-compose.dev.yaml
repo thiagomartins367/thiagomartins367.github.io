@@ -1,26 +1,26 @@
 version: "3.8"
 services:
-  dev_personal_portfolio:
-    container_name: dev_personal_portfolio
-    image: dev_my-portfolio
+  dev-my-portfolio:
+    container_name: dev-my-portfolio
+    image: dev-my-portfolio
     build: 
       context: .
       dockerfile: Dockerfile.dev
-    working_dir: /usr/src/dev_app-frontend
+    working_dir: /usr/src/dev-my-portfolio
     restart: always
     env_file:
       - ./.env.development.local
     ports:
       - 3070:3070
     volumes:
-      - ./src:/usr/src/dev_app-frontend/src # Mapeamento apenas para ambiente DEV
-      - ./public:/usr/src/dev_app-frontend/public # Mapeamento apenas para ambiente DEV
+      - ./src:/usr/src/dev-my-portfolio/src # Mapeamento apenas para ambiente DEV
+      - ./public:/usr/src/dev-my-portfolio/public # Mapeamento apenas para ambiente DEV
       - "/etc/timezone:/etc/timezone:ro"
       - "/etc/localtime:/etc/localtime:ro"
     networks:
-      - dev_my-portfolio
+      - dev-my-portfolio-network
 
 networks:
-  dev_my-portfolio:
+  dev-my-portfolio-network:
     external: false
-    name: dev_my-portfolio
+    name: dev-my-portfolio-network
