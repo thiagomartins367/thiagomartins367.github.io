@@ -46,7 +46,9 @@ Os scripts `dev`/`start`/`build` carregam `.env.*.local` via `node -r dotenv/con
   - linha em branco antes de cada at-rule, aspas simples, cores hex em minúsculo/curtas;
   - proibido `!important`, prefixos de vendor e seletores qualificados por tipo.
 - O CSS existente usa `0.001px` onde o valor seria zero. Siga o padrão do arquivo que estiver editando.
-- Cada componente tem `index.jsx` + `index.css` na própria pasta, e cada CSS faz seu próprio `@import` da fonte Poppins.
+- Cada componente tem `index.jsx` + `index.css` na própria pasta.
+- A fonte Poppins é carregada **uma única vez**, por um `<link>` no `public/index.html`, com os pesos `200;400;600`. Não use `@import` de fontes nos CSS. Se passar a usar um peso novo em `font-weight`, adicione-o nessa URL.
+- As tags `<b>` do `data.json` usam o padrão do navegador (`bolder`), que é relativo ao texto em volta: nos parágrafos com peso `200`, o negrito fica com peso `400`. Isso é intencional, porque o peso `700` foi testado e achado agressivo demais. Não force `font-weight` no `<b>`.
 - **Commits** seguem [Conventional Commits](https://www.conventionalcommits.org) + gitmoji, em pt-BR. O formato é `tipo(escopo): :gitmoji: Descrição`, com corpo opcional explicando o porquê.
   - O tipo segue a natureza da mudança (`feat`, `fix`, `refactor`, `test`, `ci`, `docs`, `chore`...).
   - O gitmoji corresponde ao tipo.
