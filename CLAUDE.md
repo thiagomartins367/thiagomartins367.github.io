@@ -65,5 +65,4 @@ Os scripts `dev`/`start`/`build` carregam `.env.*.local` via `node -r dotenv/con
 ## Armadilhas conhecidas
 
 - O único teste é `src/App.test.js`, um smoke test que renderiza o `App` dentro de um `MemoryRouter`. Ele depende do conteúdo do `data.json` (`profile.myName`) e do título "Sobre Mim" do `MainCard`; se você alterar algum dos dois, atualize o teste. Arquivos `*.test.js` estão no `.eslintignore`.
-- `prop-types` (usado em `SmallCard`) e `dotenv` (usado nos scripts) não estão no `package.json`. Eles só funcionam porque vêm como dependência transitiva do `react-scripts`.
 - `public/manifest.json` aponta um ícone para `/public/assets/thiago-martins.png`; o caminho correto seria `/assets/...`.
