@@ -1,7 +1,10 @@
-name: Deploy React Application
+name: Validate React Application
 
 on:
   pull_request:
+    branches:
+      - main
+  push:
     branches:
       - main
 
@@ -12,62 +15,60 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
-      
+        uses: actions/checkout@v7
+
       - name: Install NodeJS
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v7
         with:
-          node-version: 18.x
-      
+          node-version: 24.x
+          cache: npm
+
       - name: Install dependencies
-        run: npm install
-      
+        run: npm ci
+
       - name: Run ESLint
         run: npm run lint
 
       - name: Run Stylelint
         run: npm run lint:styles
 
-  build:
-    name: Build Application
+  tests:
+    name: Run tests
     runs-on: ubuntu-latest
-    needs: linters
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
-      
-      - name: Install NodeJS
-        uses: actions/setup-node@v2
-        with:
-          node-version: 18.x
-      
-      - name: Install dependencies
-        run: npm i
-      
-      - name: Build project
-        run: npm run build
-      
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: production-files
-          path: ./build
+        uses: actions/checkout@v7
 
-  deploy:
-    name: Deploy Application
+      - name: Install NodeJS
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24.x
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        run: npm test -- --watchAll=false
+
+  build:
+    name: Build Application
     runs-on: ubuntu-latest
-    needs: build
+    needs: [linters, tests]
 
     steps:
-      - name: Download artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: production-files
-          path: ./build
+      - name: Checkout code
+        uses: actions/checkout@v7
 
-      - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Install NodeJS
+        uses: actions/setup-node@v7
         with:
-          personal_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          publish_dir: ./build
+          node-version: 24.x
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build project
+        run: npm run build
