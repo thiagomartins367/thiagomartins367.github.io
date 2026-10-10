@@ -31,6 +31,11 @@ Os scripts `dev`/`start`/`build` carregam `.env.*.local` via `node -r dotenv/con
 - **Navegação sem rotas.** Existe só a rota `/` (`App.jsx` → `pages/Home`, que renderiza `Profile` + `MainCard`). As abas Sobre/Resumo/Projetos são controladas em `MainCard`: o estado guarda o **elemento DOM** do botão clicado e um `switch` no `id` do botão (`div-about-button`, `div-resume-button`, `div-projects-button`) escolhe o componente. O título exibido vem do atributo `value` do botão, e a cor da aba ativa é aplicada direto em `target.style.color`. Para criar uma aba nova é preciso o botão (com `id` e `value`), um `case` no `switch` e o componente.
 - **Responsividade.** Media queries em 1249 / 1023 / 767 / 579 / 480px. Abaixo de 1249px a navbar vira barra fixa no rodapé e o `Profile` vira um menu expansível. `Profile` decide o modo mobile em JS com as constantes de `src/constants.js` (`TWELVE_FORTY_NINE`, `FIVE_HUNDRED_EIGHTY`), lendo `window.innerWidth` só no mount. Essas constantes precisam bater com os breakpoints do CSS.
 - **Assets.** Caminhos locais começam com `/assets/...` e são servidos de `public/assets/`. Imagens de projetos ficam em `public/assets/projects-images/`. Quase todos os ícones de skills são URLs externas (svgrepo etc.).
+- **Foto de perfil e ícones.** A foto (`public/assets/thiago-martins.webp`) é um WebP de 320×320, o dobro dos 160px máximos que ela ocupa na tela (para telas de alta densidade). Os ícones são gerados a partir da mesma foto:
+  - `public/favicon.ico` (16/32/48px), usado no `index.html` e no `manifest.json`;
+  - `public/logo192.png` e `public/logo512.png`, usados no `manifest.json`;
+  - `public/apple-touch-icon.png` (180px), com fundo `#121212` no lugar da transparência, porque o iOS preenche transparência com preto.
+  - Ao trocar a foto, gere todos esses arquivos de novo. Ícones ficam em PNG/ICO, não em WebP, porque o iOS e alguns navegadores não aceitam WebP nesses usos.
 
 ## Convenções de código
 
@@ -65,4 +70,3 @@ Os scripts `dev`/`start`/`build` carregam `.env.*.local` via `node -r dotenv/con
 ## Armadilhas conhecidas
 
 - O único teste é `src/App.test.js`, um smoke test que renderiza o `App` dentro de um `MemoryRouter`. Ele depende do conteúdo do `data.json` (`profile.myName`) e do título "Sobre Mim" do `MainCard`; se você alterar algum dos dois, atualize o teste. Arquivos `*.test.js` estão no `.eslintignore`.
-- `public/manifest.json` aponta um ícone para `/public/assets/thiago-martins.png`; o caminho correto seria `/assets/...`.
