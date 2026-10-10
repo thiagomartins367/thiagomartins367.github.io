@@ -19,7 +19,10 @@ function Resume() {
           <li className="li-timeline-bottom-line-icon"><div /></li>
           {
             professional.experience.map((itemObj) => (
-              <li className="li-timeline-item" key={ itemObj.title }>
+              <li
+                className="li-timeline-item"
+                key={ `${itemObj.title}-${itemObj.start}` }
+              >
                 <div className="div-marker-separator">
                   <div className="div-timeline-item-marker">
                     <div />
@@ -58,7 +61,10 @@ function Resume() {
           <li className="li-timeline-bottom-line-icon"><div /></li>
           {
             professional.education.map((itemObj) => (
-              <li className="li-timeline-item" key={ itemObj.title }>
+              <li
+                className="li-timeline-item"
+                key={ `${itemObj.title}-${itemObj.start}` }
+              >
                 <div className="div-marker-separator">
                   <div className="div-timeline-item-marker">
                     <div />

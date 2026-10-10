@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "13.4.0",
     "@testing-library/user-event": "13.5.0",
+    "prop-types": "15.8.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "6.8.1",
@@ -23,7 +24,7 @@
     "lint:styles": "npx stylelint '**/*.css' --config .stylelintrc.json --ignore-disables --allow-empty-input",
     "compose:up:dev": "docker-compose -f docker-compose.dev.yaml up -d",
     "compose:down:dev": "docker-compose -f docker-compose.dev.yaml down --remove-orphans",
-    "compose:rm:images:dev": "docker image rm dev_my-portfolio",
+    "compose:rm:images:dev": "docker image rm dev-my-portfolio",
     "compose:up:prod": "docker-compose -f docker-compose.prod.yaml up -d",
     "compose:down:prod": "docker-compose -f docker-compose.prod.yaml down --remove-orphans",
     "compose:rm:images:prod": "docker image rm my-portfolio"
@@ -57,6 +58,7 @@
   },
   "devDependencies": {
     "@trybe/eslint-config-frontend": "1.8.3",
+    "dotenv": "10.0.0",
     "stylelint": "15.2.0",
     "stylelint-config-standard": "30.0.1",
     "stylelint-order": "6.0.2"

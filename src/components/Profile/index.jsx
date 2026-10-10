@@ -1,34 +1,26 @@
 import { useEffect, useState } from 'react';
-import { FIVE_HUNDRED, FIVE_HUNDRED_EIGHTY, TWELVE_FORTY_NINE } from '../../constants';
+import { FIVE_HUNDRED } from '../../constants';
 import data from '../../database/data.json';
 import './index.css';
 
 function Profile() {
   const { profile } = data;
-  const [mobileScreen, setMobileScreen] = useState(false);
-  const [displayMobileMenu, setDisplayMobileMenu] = useState(false);
-  const [displayMobileMoreInfo, setDisplayMobileMoreInfo] = useState(false);
-  const [profileTransitionMoreInfo, setProfileTransitionMoreInfo] = useState('');
-  const [profileItemTransitionMoreInfo, setProfileItemTransitionMoreInfo] = useState('');
+  const [isMoreInfoOpen, setIsMoreInfoOpen] = useState(false);
+  const [isMoreInfoItemsVisible, setIsMoreInfoItemsVisible] = useState(false);
 
   useEffect(() => {
-    const windowWidth = window.innerWidth;
-    setMobileScreen(windowWidth <= TWELVE_FORTY_NINE);
-    setDisplayMobileMoreInfo(windowWidth >= FIVE_HUNDRED_EIGHTY);
-  }, []);
+    if (!isMoreInfoOpen) return undefined;
+    const timeoutId = setTimeout(() => setIsMoreInfoItemsVisible(true), FIVE_HUNDRED);
+    return () => {
+      clearTimeout(timeoutId);
+      setIsMoreInfoItemsVisible(false);
+    };
+  }, [isMoreInfoOpen]);
 
-  const defineTransitionClasses = () => {
-    if (profileTransitionMoreInfo.length === 0) {
-      setProfileTransitionMoreInfo('transition-profile-more-info');
-      setTimeout(
-        () => setProfileItemTransitionMoreInfo('transition-profile-item-more-info'),
-        FIVE_HUNDRED,
-      );
-    } else {
-      setProfileTransitionMoreInfo('');
-      setProfileItemTransitionMoreInfo('');
-    }
-  };
+  const profileTransitionMoreInfo = isMoreInfoOpen
+    ? 'transition-profile-more-info' : '';
+  const profileItemTransitionMoreInfo = isMoreInfoOpen && isMoreInfoItemsVisible
+    ? 'transition-profile-item-more-info' : '';
 
   return (
     <aside className="aside-profile">
@@ -44,27 +36,17 @@ function Profile() {
             { profile.title }
           </div>
         </div>
-        {
-          mobileScreen && (
-            <div>
-              <button
-                type="button"
-                className="button-menu-mobile-platforms"
-                onClick={ () => {
-                  defineTransitionClasses();
-                  setDisplayMobileMenu(!displayMobileMenu);
-                } }
-              >
-                {
-                  displayMobileMoreInfo ? (
-                    <span>More Info</span>
-                  ) : (
-                    <img src="/assets/down-arrow-menu.svg" alt="More Info" />
-                  )
-                }
-              </button>
-            </div>)
-        }
+        <div>
+          <button
+            type="button"
+            className="button-menu-mobile-platforms"
+            aria-expanded={ isMoreInfoOpen }
+            onClick={ () => setIsMoreInfoOpen(!isMoreInfoOpen) }
+          >
+            <span>More Info</span>
+            <img src="/assets/down-arrow-menu.svg" alt="More Info" />
+          </button>
+        </div>
       </section>
 
       <section className={ `section-profile-more-info ${profileTransitionMoreInfo}` }>

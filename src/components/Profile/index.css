@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600&display=swap');
-
 .aside-profile {
   background-color: #1e1e1f;
   border: 1px solid #3a3a3a;
@@ -123,6 +121,10 @@
   width: 30px;
 }
 
+.button-menu-mobile-platforms {
+  display: none;
+}
+
 @media screen and ( max-width : 1249px ) {
 
   .aside-profile {
@@ -202,6 +204,7 @@
   }
 
   .button-menu-mobile-platforms img {
+    display: none;
     height: 13px;
     width: 15px;
   }
@@ -306,6 +309,14 @@
     right: 16px;
     top: 16px;
     width: 40px;
+  }
+
+  .button-menu-mobile-platforms span {
+    display: none;
+  }
+
+  .button-menu-mobile-platforms img {
+    display: block;
   }
 
   .div-profile-name {

@@ -1,0 +1,13 @@
+FROM node:24-alpine
+
+WORKDIR /usr/src/dev-my-portfolio
+
+COPY ["package.json", "package-lock.json", "./"]
+
+RUN npm ci
+
+COPY ["./", "./"]
+
+EXPOSE 3070
+
+CMD ["npm", "run", "dev"]

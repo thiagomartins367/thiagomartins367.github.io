@@ -1,12 +1,12 @@
 version: "3.8"
 services:
-  personal_portfolio:
-    container_name: personal_portfolio
+  my-portfolio:
+    container_name: my-portfolio
     image: my-portfolio
     build: 
       context: .
-      target: production
-    working_dir: /usr
+      dockerfile: Dockerfile.prod
+    working_dir: /usr/share/nginx/html
     restart: always
     env_file:
       - ./.env.production.local
@@ -16,9 +16,9 @@ services:
       - "/etc/timezone:/etc/timezone:ro"
       - "/etc/localtime:/etc/localtime:ro"
     networks:
-      - my-portfolio
+      - my-portfolio-network
 
 networks:
-  my-portfolio:
+  my-portfolio-network:
     external: false
-    name: my-portfolio
+    name: my-portfolio-network

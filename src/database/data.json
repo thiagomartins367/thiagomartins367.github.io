@@ -1,7 +1,7 @@
 {
   "profile": {
     "myName": "Thiago Martins",
-    "title": "Developer",
+    "title": "Software Engineer",
     "description": {
       "paragraphs": [
         "Sou <b>Desenvolvedor Full-Stack Pleno</b> com foco em Back-end. Trabalho principalmente com <b>C#, .NET e ASP.NET</b>, construindo APIs e a camada de dados de aplicações web apoiando no front-end com <b>React e TypeScript</b> quando o time precisa.",
@@ -10,13 +10,13 @@
         "Encaro cada tecnologia nova como oportunidade, não como obstáculo. Foi assim com o .NET, é assim com IA, e será assim com o que vier depois. Acredito que o melhor dev não é o que sabe mais linguagens, é o que <b>resolve problemas reais com as ferramentas certas</b>."
       ]
     },
-    "picture": "/assets/thiago-martins.png",
+    "picture": "/assets/thiago-martins.webp",
     "contacts": [
       {
         "name": "Linkedin",
         "username": "in/thiago-dioria-martins",
         "url": "https://www.linkedin.com/public-profile/in/thiago-dioria-martins",
-        "image": "/assets/linkedin-icon-2.svg"
+        "image": "/assets/linkedin-icon.svg"
       },
       {
         "name": "Github",
