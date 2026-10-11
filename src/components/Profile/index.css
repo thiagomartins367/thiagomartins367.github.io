@@ -64,12 +64,18 @@
   border-top: 1px solid #3a3a3a;
   display: flex;
   flex-flow: column nowrap;
-  gap: 10px;
   height: 100%;
-  justify-content: space-between;
   margin-top: 30px;
   padding-top: 30px;
   width: 100%;
+}
+
+.div-profile-more-info-content {
+  display: flex;
+  flex-flow: column nowrap;
+  flex-grow: 1;
+  gap: 10px;
+  justify-content: space-between;
 }
 
 .div-profile-icon {
@@ -210,33 +216,40 @@
   }
 
   .section-profile-more-info {
-    gap: 16px;
-    height: 0.001%;
+    display: grid;
+    grid-template-rows: 0fr;
+    height: auto;
     margin-top: 0.001px;
-    max-height: 1px;
     padding-top: 0.001px;
-    transition: 1s ease-in-out;
+    transition-duration: 0.3s;
+    transition-property: grid-template-rows , margin-top , padding-top , visibility;
+    transition-timing-function: ease;
     visibility: hidden;
   }
 
   .transition-profile-more-info {
+    grid-template-rows: 1fr;
     margin-top: 16px;
-    max-height: 347px;
     padding-top: 16px;
-    transition: 1s ease-in-out;
     visibility: visible;
+  }
+
+  .div-profile-more-info-content {
+    gap: 16px;
+    min-height: 0.001px;
+    overflow: hidden;
   }
 
   .div-profile-icon {
-    max-height: 0.001px;
-    transition: 0.5s ease-in-out;
-    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-4px);
+    transition: opacity 0.2s ease , transform 0.2s ease;
   }
 
-  .transition-profile-item-more-info {
-    max-height: 315px;
-    transition: 2s ease-in-out;
-    visibility: visible;
+  .transition-profile-more-info .div-profile-icon {
+    opacity: 1;
+    transform: none;
+    transition-delay: calc(var(--item-index) * 0.1s);
   }
 
   .div-profile-info div {
@@ -327,5 +340,12 @@
   .div-profile-title {
     font-size: 11px;
     padding: 3px 12px;
+  }
+}
+
+@media ( prefers-reduced-motion : reduce ) {
+
+  .section-profile-more-info, .div-profile-icon {
+    transition: none;
   }
 }
