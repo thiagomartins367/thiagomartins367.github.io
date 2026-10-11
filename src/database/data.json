@@ -116,157 +116,157 @@
     "skills": [
       {
         "title": "Csharp",
-        "image": "https://www.svgrepo.com/show/452184/csharp.svg",
+        "image": "/assets/skills/csharp.svg",
         "imageAltText": "csharp",
         "redirectLink": "https://dotnet.microsoft.com/pt-br/languages/csharp"
       },
       {
         "title": "Dotnet",
-        "image": "https://www.svgrepo.com/show/376369/dotnet.svg",
+        "image": "/assets/skills/dotnet.svg",
         "imageAltText": "dotnet",
         "redirectLink": "https://dotnet.microsoft.com/pt-br/learn/dotnet/what-is-dotnet"
       },
       {
         "title": "Asp.Net",
-        "image": "/assets/aspnet-logo.svg",
+        "image": "/assets/skills/aspnet.svg",
         "imageAltText": "asp.net",
         "redirectLink": "https://dotnet.microsoft.com/pt-br/learn/aspnet/what-is-aspnet-core#:~:text=ASP.NET%20Core-,Performance,-Performance%20is%20a"
       },
       {
         "title": "Claude",
-        "image": "/assets/claude-ai.svg",
+        "image": "/assets/skills/claude.svg",
         "imageAltText": "claude code",
         "redirectLink": "https://claude.com/solutions/coding"
       },
       {
         "title": "NodeJS",
-        "image": "https://www.svgrepo.com/show/303266/nodejs-icon-logo.svg",
+        "image": "/assets/skills/nodejs.svg",
         "imageAltText": "node js",
         "redirectLink": "https://nodejs.org/en/about"
       },
       {
         "title": "Express",
-        "image": "https://www.svgrepo.com/show/330398/express.svg",
+        "image": "/assets/skills/express.svg",
         "imageAltText": "express",
         "redirectLink": "https://expressjs.com/pt-br"
       },
       {
         "title": "ReactJS",
-        "image": "https://www.svgrepo.com/show/354259/react.svg",
+        "image": "/assets/skills/react.svg",
         "imageAltText": "react js",
         "redirectLink": "https://pt-br.react.dev"
       },
       {
         "title": "Redux",
-        "image": "https://www.svgrepo.com/show/452093/redux.svg",
+        "image": "/assets/skills/redux.svg",
         "imageAltText": "redux",
         "redirectLink": "https://redux.js.org"
       },
       {
         "title": "Docker",
-        "image": "https://www.svgrepo.com/show/354926/docker.svg",
+        "image": "/assets/skills/docker.svg",
         "imageAltText": "docker",
         "redirectLink": "https://www.docker.com"
       },
       {
         "title": "HTML",
-        "image": "https://www.svgrepo.com/show/452228/html-5.svg",
+        "image": "/assets/skills/html.svg",
         "imageAltText": "html",
         "redirectLink": "https://developer.mozilla.org/pt-BR/docs/Web/HTML"
       },
       {
         "title": "CSS",
-        "image": "https://www.svgrepo.com/show/373535/css.svg",
+        "image": "/assets/skills/css.svg",
         "imageAltText": "css",
         "redirectLink": "https://developer.mozilla.org/pt-BR/docs/Web/CSS"
       },
       {
         "title": "JavaScript",
-        "image": "https://www.svgrepo.com/show/353925/javascript.svg",
+        "image": "/assets/skills/javascript.svg",
         "imageAltText": "javascript",
         "redirectLink": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
       },
       {
         "title": "TypeScript",
-        "image": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+        "image": "/assets/skills/typescript.svg",
         "imageAltText": "typeScript",
         "redirectLink": "https://www.typescriptlang.org/pt"
       },
       {
         "title": "Python",
-        "image": "https://www.svgrepo.com/show/452091/python.svg",
+        "image": "/assets/skills/python.svg",
         "imageAltText": "python",
         "redirectLink": "https://www.python.org/about"
       },
       {
         "title": "MySQL",
-        "image": "https://www.svgrepo.com/show/355133/mysql.svg",
+        "image": "/assets/skills/mysql.svg",
         "imageAltText": "mysql",
         "redirectLink": "https://www.mysql.com"
       },
       {
         "title": "Sequelize",
-        "image": "https://www.svgrepo.com/show/354333/sequelize.svg",
+        "image": "/assets/skills/sequelize.svg",
         "imageAltText": "sequelize",
         "redirectLink": "https://sequelize.org"
       },
       {
         "title": "Entity F.",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmCO2M5Ey4-YUst5AzbLteGKTL1p-VjKC9bzcq761kOQ&s",
+        "image": "/assets/skills/entity-framework.png",
         "imageAltText": "entity framework",
         "redirectLink": "https://learn.microsoft.com/pt-br/ef/core"
       },
       {
         "title": "MongoDB",
-        "image": "https://www.svgrepo.com/show/373845/mongo.svg",
+        "image": "/assets/skills/mongodb.svg",
         "imageAltText": "mongodb",
         "redirectLink": "https://www.mongodb.com/pt-br"
       },
       {
         "title": "Mongoose",
-        "image": "https://avatars.githubusercontent.com/u/7552965?s=200&v=4",
+        "image": "/assets/skills/mongoose.webp",
         "imageAltText": "mongoose",
         "redirectLink": "https://mongoosejs.com"
       },
       {
         "title": "JWT",
-        "image": "https://jwt.io/img/pic_logo.svg",
+        "image": "/assets/skills/jwt.svg",
         "imageAltText": "json web tokens",
         "redirectLink": "https://jwt.io/introduction"
       },
       {
         "title": "Jest",
-        "image": "https://www.svgrepo.com/show/373700/jest.svg",
+        "image": "/assets/skills/jest.svg",
         "imageAltText": "jest",
         "redirectLink": "https://jestjs.io/pt-BR"
       },
       {
         "title": "RTL",
-        "image": "https://testing-library.com/img/logo-large.png",
+        "image": "/assets/skills/react-testing-library.png",
         "imageAltText": "React Testing Library",
         "redirectLink": "https://testing-library.com/docs/react-testing-library/intro"
       },
       {
         "title": "Mocha",
-        "image": "https://mochajs.org/_astro/icon-dark.DfedUq3L.svg",
+        "image": "/assets/skills/mocha.svg",
         "imageAltText": "mocha",
         "redirectLink": "https://mochajs.org"
       },
       {
         "title": "Chai",
-        "image": "https://www.chaijs.com/img/chai-logo-small.png",
+        "image": "/assets/skills/chai.webp",
         "imageAltText": "chai",
         "redirectLink": "https://www.chaijs.com"
       },
       {
         "title": "Git",
-        "image": "https://www.svgrepo.com/show/452210/git.svg",
+        "image": "/assets/skills/git.svg",
         "imageAltText": "git",
         "redirectLink": "https://git-scm.com"
       },
       {
         "title": "GitHub",
-        "image": "https://www.svgrepo.com/show/353783/github-octocat.svg",
+        "image": "/assets/skills/github.svg",
         "imageAltText": "github",
         "redirectLink": "https://docs.github.com/pt/get-started/start-your-journey/about-github-and-git"
       }
@@ -277,7 +277,7 @@
     "projects": [
       {
         "title": "Trybe Hotel",
-        "image": "/assets/projects-images/trybe-hotel.jpg",
+        "image": "/assets/projects-images/trybe-hotel.webp",
         "description": null,
         "technologies": [
           ".NET",
@@ -328,7 +328,7 @@
       },
       {
         "title": "APP de Receitas",
-        "image": "/assets/projects-images/recipes-app.png",
+        "image": "/assets/projects-images/recipes-app.webp",
         "description": "⚠️ Resolução 360 x 640",
         "technologies": [
           "ReactJS",
@@ -345,7 +345,7 @@
       },
       {
         "title": "Futebol Clube",
-        "image": "/assets/projects-images/trybe-futebol-clube.png",
+        "image": "/assets/projects-images/trybe-futebol-clube.webp",
         "description": null,
         "technologies": [
           "NodeJS",
@@ -384,7 +384,7 @@
       },
       {
         "title": "Servidor Web com Docker",
-        "image": "/assets/projects-images/web-server-docker.png",
+        "image": "/assets/projects-images/web-server-docker.webp",
         "description": null,
         "technologies": [
           "ReactJS",
@@ -406,7 +406,7 @@
       },
       {
         "title": "Job Insights",
-        "image": "/assets/projects-images/job-insights.png",
+        "image": "/assets/projects-images/job-insights.webp",
         "description": null,
         "technologies": [
           "Python",
@@ -439,7 +439,7 @@
       },
       {
         "title": "Jogo de Trivia",
-        "image": "/assets/projects-images/trivia-react-redux.jpg",
+        "image": "/assets/projects-images/trivia-react-redux.webp",
         "description": null,
         "technologies": [
           "ReactJS",

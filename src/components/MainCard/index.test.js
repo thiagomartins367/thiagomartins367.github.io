@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import MainCard from '.';
 
@@ -33,4 +33,21 @@ test('volta a página ao topo apenas ao trocar de aba', () => {
 
   userEvent.click(screen.getByRole('button', { name: 'Resumo' }));
   expect(window.scrollTo).toHaveBeenCalledWith(0, 0);
+});
+
+test('pré-carrega as abas "Resumo" e "Projetos" ocultas', async () => {
+  render(<MainCard />);
+
+  await waitFor(() => {
+    expect(screen.getByRole('heading', { name: 'Resumo', hidden: true })).not.toBeVisible();
+  });
+  expect(screen.getByRole('heading', { name: 'Projetos', hidden: true })).not.toBeVisible();
+  expect(screen.getByRole('heading', { name: 'Sobre Mim' })).toBeVisible();
+});
+
+test('monta na hora uma aba clicada antes do pré-carregamento', () => {
+  render(<MainCard />);
+
+  userEvent.click(screen.getByRole('button', { name: 'Projetos' }));
+  expect(screen.getByRole('heading', { name: 'Projetos' })).toBeVisible();
 });
