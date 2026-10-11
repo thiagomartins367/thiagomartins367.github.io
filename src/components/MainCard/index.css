@@ -25,6 +25,10 @@
   animation: fade 0.5s ease backwards;
 }
 
+.div-main-card-panel {
+  height: 100%;
+}
+
 .content-render-section {
   box-sizing: border-box;
   height: calc(100% - 55px);
