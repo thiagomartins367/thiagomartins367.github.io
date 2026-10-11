@@ -229,26 +229,26 @@
   }
 
   .div-img-icon-education, .div-img-icon-experience {
-    border-radius: 7px;
-    height: 30px;
-    width: 30px;
+    border-radius: 9px;
+    height: 40px;
+    width: 40px;
   }
 
   .div-img-icon-education img {
-    width: 16px;
+    width: 18px;
   }
 
   .div-img-icon-experience img {
-    width: 20px;
+    width: 22px;
   }
 
   .ul-list-timeline {
-    margin-top: -7px;
-    padding-left: 5px;
+    margin-top: -2px;
+    padding-left: 10px;
   }
 
   .div-timeline-item-content {
-    margin-left: 25px;
+    margin-left: 30px;
   }
 
   .div-timeline-item-content p {
