@@ -38,9 +38,93 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Thiago Martins</title>
+    <!--
+      Estilos da tela de carregamento ficam inline para que ela apareça antes do
+      CSS da aplicação. Ela é escondida por src/loadingScreen.js.
+    -->
+    <style>
+      .is-loading {
+        overflow: hidden;
+      }
+
+      #loading-screen {
+        align-items: center;
+        animation: loading-screen-failsafe 0s 10s forwards;
+        background-color: #121212;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        left: 0;
+        position: fixed;
+        right: 0;
+        top: 0;
+        transition: opacity 0.3s ease, visibility 0.3s;
+        z-index: 1000;
+      }
+
+      #loading-screen.loading-screen-hidden {
+        opacity: 0;
+        visibility: hidden;
+      }
+
+      .loading-screen-spinner {
+        animation: loading-screen-spin 0.8s linear infinite;
+        border: 3px solid #3a3a3a;
+        border-radius: 50%;
+        border-top-color: #ffdb70;
+        height: 40px;
+        width: 40px;
+      }
+
+      .loading-screen-text {
+        clip: rect(0 0 0 0);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+      }
+
+      @keyframes loading-screen-spin {
+
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      /* Garante que a tela some mesmo se o JavaScript da aplicação falhar ao carregar */
+      @keyframes loading-screen-failsafe {
+
+        to {
+          visibility: hidden;
+        }
+      }
+
+      @media ( prefers-reduced-motion : reduce ) {
+
+        #loading-screen {
+          transition: none;
+        }
+      }
+    </style>
+    <noscript>
+      <style>
+        #loading-screen {
+          display: none;
+        }
+      </style>
+    </noscript>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="loading-screen" role="status">
+      <div class="loading-screen-spinner"></div>
+      <span class="loading-screen-text">Carregando...</span>
+    </div>
+    <script>
+      document.documentElement.classList.add('is-loading');
+      window.loadingScreenShownAt = performance.now();
+    </script>
     <main id="root"></main>
   </body>
 </html>
