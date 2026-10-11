@@ -213,11 +213,13 @@
   }
 
   .section-profile-more-info {
+    border-top-color: transparent;
     display: grid;
     grid-template-rows: 0fr;
     height: auto;
     margin-top: 0.001px;
     padding-top: 0.001px;
+    position: relative;
     transition-duration: 0.3s;
     transition-property: grid-template-rows , margin-top , padding-top , visibility;
     transition-timing-function: ease;
@@ -229,6 +231,23 @@
     margin-top: 16px;
     padding-top: 16px;
     visibility: visible;
+  }
+
+  /* Linha separadora: aparece só perto da distância final e some logo ao recolher */
+  .section-profile-more-info:before {
+    border-top: 1px solid #3a3a3a;
+    content: '';
+    left: 0.001px;
+    opacity: 0;
+    position: absolute;
+    right: 0.001px;
+    top: -1px;
+    transition: opacity 0.1s ease;
+  }
+
+  .transition-profile-more-info:before {
+    opacity: 1;
+    transition: opacity 0.15s ease 0.15s;
   }
 
   .div-profile-more-info-content {
@@ -344,6 +363,10 @@
 @media ( prefers-reduced-motion : reduce ) {
 
   .section-profile-more-info, .div-profile-icon, .button-menu-mobile-platforms img {
+    transition: none;
+  }
+
+  .section-profile-more-info:before {
     transition: none;
   }
 }
