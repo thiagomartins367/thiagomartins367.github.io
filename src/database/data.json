@@ -277,7 +277,7 @@
     "projects": [
       {
         "title": "Trybe Hotel",
-        "image": "/assets/projects-images/trybe-hotel.jpg",
+        "image": "/assets/projects-images/trybe-hotel.webp",
         "description": null,
         "technologies": [
           ".NET",
@@ -328,7 +328,7 @@
       },
       {
         "title": "APP de Receitas",
-        "image": "/assets/projects-images/recipes-app.png",
+        "image": "/assets/projects-images/recipes-app.webp",
         "description": "⚠️ Resolução 360 x 640",
         "technologies": [
           "ReactJS",
@@ -345,7 +345,7 @@
       },
       {
         "title": "Futebol Clube",
-        "image": "/assets/projects-images/trybe-futebol-clube.png",
+        "image": "/assets/projects-images/trybe-futebol-clube.webp",
         "description": null,
         "technologies": [
           "NodeJS",
@@ -384,7 +384,7 @@
       },
       {
         "title": "Servidor Web com Docker",
-        "image": "/assets/projects-images/web-server-docker.png",
+        "image": "/assets/projects-images/web-server-docker.webp",
         "description": null,
         "technologies": [
           "ReactJS",
@@ -406,7 +406,7 @@
       },
       {
         "title": "Job Insights",
-        "image": "/assets/projects-images/job-insights.png",
+        "image": "/assets/projects-images/job-insights.webp",
         "description": null,
         "technologies": [
           "Python",
@@ -439,7 +439,7 @@
       },
       {
         "title": "Jogo de Trivia",
-        "image": "/assets/projects-images/trivia-react-redux.jpg",
+        "image": "/assets/projects-images/trivia-react-redux.webp",
         "description": null,
         "technologies": [
           "ReactJS",
