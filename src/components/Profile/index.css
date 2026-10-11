@@ -185,11 +185,8 @@
     border-bottom-left-radius: 20px;
     border-left: 1px solid #3a3a3a;
     border-top-right-radius: 20px;
-    color: #ffdb70;
     cursor: pointer;
     display: flex;
-    font-family: 'Poppins' , sans-serif;
-    font-size: 14px;
     height: 40px;
     justify-content: center;
     margin-left: 432px;
@@ -199,9 +196,9 @@
     width: 118px;
   }
 
-  .button-menu-mobile-platforms:focus {
-    background: linear-gradient(to bottom right,
-    hsl(45, 100%, 71%) 0%, hsla(36, 100%, 69%, 0) 50%);
+  .button-menu-mobile-platforms:focus-visible {
+    outline: 2px solid #ffdb70;
+    outline-offset: -2px;
   }
 
   .button-menu-mobile-platforms::selection {
@@ -210,9 +207,9 @@
   }
 
   .button-menu-mobile-platforms img {
-    display: none;
-    height: 13px;
-    width: 15px;
+    height: 18px;
+    transition: transform 0.3s ease;
+    width: 18px;
   }
 
   .section-profile-more-info {
@@ -264,6 +261,10 @@
   .div-img-icon img {
     height: 28px;
     width: 28px;
+  }
+
+  .button-menu-mobile-platforms[ aria-expanded = 'true' ] img {
+    transform: rotate(180deg);
   }
 }
 
@@ -324,12 +325,9 @@
     width: 40px;
   }
 
-  .button-menu-mobile-platforms span {
-    display: none;
-  }
-
   .button-menu-mobile-platforms img {
-    display: block;
+    height: 13px;
+    width: 15px;
   }
 
   .div-profile-name {
@@ -345,7 +343,7 @@
 
 @media ( prefers-reduced-motion : reduce ) {
 
-  .section-profile-more-info, .div-profile-icon {
+  .section-profile-more-info, .div-profile-icon, .button-menu-mobile-platforms img {
     transition: none;
   }
 }

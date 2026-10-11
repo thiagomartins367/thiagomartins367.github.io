@@ -31,12 +31,12 @@ function Profile() {
           <button
             type="button"
             className="button-menu-mobile-platforms"
+            aria-label="Mais informações"
             aria-expanded={ isMoreInfoOpen }
             aria-controls="profile-more-info"
             onClick={ () => setIsMoreInfoOpen(!isMoreInfoOpen) }
           >
-            <span>More Info</span>
-            <img src="/assets/down-arrow-menu.svg" alt="More Info" />
+            <img src="/assets/down-arrow-menu.svg" alt="" />
           </button>
         </div>
       </section>
