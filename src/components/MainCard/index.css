@@ -138,6 +138,10 @@
     top: auto;
     width: 100%;
   }
+
+  .content-render-section {
+    overflow: hidden;
+  }
 }
 
 /* @media screen and (max-width: 1023px) {
@@ -156,10 +160,6 @@
 
   .h2-title {
     font-size: 24px;
-  }
-
-  .content-render-section {
-    overflow: hidden;
   }
 }
 
