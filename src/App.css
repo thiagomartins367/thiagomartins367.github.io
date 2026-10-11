@@ -2,6 +2,7 @@ body {
   background-color: #121212;
   display: flex;
   justify-content: center;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body::-webkit-scrollbar {

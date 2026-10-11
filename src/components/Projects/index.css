@@ -124,15 +124,9 @@
   width: 100%;
 }
 
-.div-button-repository button:hover {
-  background-color: #1d2634;
-  box-shadow: 0.001px 0.001px 0.001px 0.001px black;
-}
-
-.div-button-webpage button:hover {
-  background-color: #1d2634;
-  border: 1px solid #3a3a3a;
-  box-shadow: none;
+.div-button-repository button:hover, .div-button-webpage button:hover {
+  box-shadow: 0.001px 0.001px 5px #ffdb70;
+  transform: scale(1.05);
 }
 
 @media screen and ( max-width : 1249px ) {
