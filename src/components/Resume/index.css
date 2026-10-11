@@ -174,9 +174,16 @@
   padding: 20px;
 }
 
-/* @media screen and (max-width: 1249px) {
+@media screen and ( max-width : 1249px ) {
 
-} */
+  .ul-list-timeline {
+    padding-right: 0.001px;
+  }
+
+  .section-skills {
+    padding-right: 0.001px;
+  }
+}
 
 @media screen and ( max-width : 1023px ) {
 
