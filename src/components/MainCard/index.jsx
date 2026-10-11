@@ -81,12 +81,12 @@ function MainCard() {
           ))
         }
       </nav>
-      <article className="article-main-card quick-animation">
+      <article className="article-main-card">
         {
           NAVBAR_OPTIONS
             .filter(({ id }) => mountedOptionIds.includes(id))
             .map(({ id, title, Content }) => (
-              // O fade de troca roda ao remover o "hidden"; na primeira tela, quem anima é o card
+              // O fade de troca roda ao remover o "hidden"; na primeira tela, quem revela o conteúdo é a tela de carregamento
               <div
                 key={ id }
                 className={ `div-main-card-panel ${panelAnimationClass}` }

@@ -22,7 +22,7 @@
 }
 
 .quick-animation {
-  animation: fade 0.5s ease backwards;
+  animation: fade 0.8s ease-in-out backwards;
 }
 
 .div-main-card-panel {
@@ -166,3 +166,10 @@
 /* @media screen and (max-width: 412px) {
 
 } */
+
+@media ( prefers-reduced-motion : reduce ) {
+
+  .quick-animation {
+    animation: none;
+  }
+}
