@@ -1,26 +1,17 @@
-import { useEffect, useState } from 'react';
-import { FIVE_HUNDRED } from '../../constants';
+import { useState } from 'react';
 import data from '../../database/data.json';
 import './index.css';
 
 function Profile() {
   const { profile } = data;
   const [isMoreInfoOpen, setIsMoreInfoOpen] = useState(false);
-  const [isMoreInfoItemsVisible, setIsMoreInfoItemsVisible] = useState(false);
-
-  useEffect(() => {
-    if (!isMoreInfoOpen) return undefined;
-    const timeoutId = setTimeout(() => setIsMoreInfoItemsVisible(true), FIVE_HUNDRED);
-    return () => {
-      clearTimeout(timeoutId);
-      setIsMoreInfoItemsVisible(false);
-    };
-  }, [isMoreInfoOpen]);
-
-  const profileTransitionMoreInfo = isMoreInfoOpen
-    ? 'transition-profile-more-info' : '';
-  const profileItemTransitionMoreInfo = isMoreInfoOpen && isMoreInfoItemsVisible
-    ? 'transition-profile-item-more-info' : '';
+  const moreInfoItems = [
+    ...profile.contacts
+      .map((contact) => ({ ...contact, linkText: contact.username, target: '_blank' })),
+    ...profile.otherInformations
+      .map((info) => ({ ...info, linkText: info.subtitle, target: '_self' })),
+  ];
+  const moreInfoOpenClass = isMoreInfoOpen ? 'transition-profile-more-info' : '';
 
   return (
     <aside className="aside-profile">
@@ -40,68 +31,45 @@ function Profile() {
           <button
             type="button"
             className="button-menu-mobile-platforms"
+            aria-label="Mais informações"
             aria-expanded={ isMoreInfoOpen }
+            aria-controls="profile-more-info"
             onClick={ () => setIsMoreInfoOpen(!isMoreInfoOpen) }
           >
-            <span>More Info</span>
-            <img src="/assets/down-arrow-menu.svg" alt="More Info" />
+            <img src="/assets/down-arrow-menu.svg" alt="" />
           </button>
         </div>
       </section>
 
-      <section className={ `section-profile-more-info ${profileTransitionMoreInfo}` }>
-        {
-          profile.contacts.map((contactObj) => (
-            <div
-              key={ contactObj.name }
-              className={ `div-profile-icon ${profileItemTransitionMoreInfo}` }
-            >
-              <a href={ contactObj.url } target="_blank" rel="noreferrer">
-                <div className="div-img-icon">
-                  <img
-                    className="profile-icons"
-                    src={ contactObj.image }
-                    alt={ contactObj.name }
-                  />
-                </div>
-              </a>
-              <div className="div-profile-info">
-                <div>
-                  { contactObj.name.toUpperCase() }
-                </div>
-                <a href={ contactObj.url } target="_blank" rel="noreferrer">
-                  { contactObj.username }
+      <section
+        id="profile-more-info"
+        className={ `section-profile-more-info ${moreInfoOpenClass}` }
+      >
+        <div className="div-profile-more-info-content">
+          {
+            moreInfoItems.map(({ name, url, image, linkText, target }, index) => (
+              <div
+                key={ name }
+                className="div-profile-icon"
+                style={ { '--item-index': index } }
+              >
+                <a href={ url } target={ target } rel="noreferrer">
+                  <div className="div-img-icon">
+                    <img className="profile-icons" src={ image } alt={ name } />
+                  </div>
                 </a>
-              </div>
-            </div>
-          ))
-        }
-        {
-          profile.otherInformations.map((contactObj) => (
-            <div
-              key={ contactObj.name }
-              className={ `div-profile-icon ${profileItemTransitionMoreInfo}` }
-            >
-              <a href={ contactObj.url } target="_self" rel="noreferrer">
-                <div className="div-img-icon">
-                  <img
-                    className="profile-icons"
-                    src={ contactObj.image }
-                    alt={ contactObj.name }
-                  />
+                <div className="div-profile-info">
+                  <div>
+                    { name.toUpperCase() }
+                  </div>
+                  <a href={ url } target={ target } rel="noreferrer">
+                    { linkText }
+                  </a>
                 </div>
-              </a>
-              <div className="div-profile-info">
-                <div>
-                  { contactObj.name.toUpperCase() }
-                </div>
-                <a href={ contactObj.url } target="_self" rel="noreferrer">
-                  { contactObj.subtitle }
-                </a>
               </div>
-            </div>
-          ))
-        }
+            ))
+          }
+        </div>
       </section>
     </aside>
   );
