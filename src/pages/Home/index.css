@@ -1,9 +1,16 @@
+/*
+  A altura desconta o padding vertical (30px + 30px) para que a página caiba exatamente
+  na tela.
+  O mínimo de 466px é a altura do Profile na versão mais compacta: abaixo disso a
+  página rola, em vez de cortar o card.
+*/
+
 .section-home {
   background-color: #121212;
   display: flex;
-  height: 100vh;
+  height: max(calc(100vh - 60px), 466px);
   justify-content: space-between;
-  padding: 60px;
+  padding: 30px;
   position: relative;
   width: auto;
 }
