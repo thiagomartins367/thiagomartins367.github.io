@@ -269,6 +269,18 @@
         "image": "/assets/skills/github.svg",
         "imageAltText": "github",
         "redirectLink": "https://docs.github.com/pt/get-started/start-your-journey/about-github-and-git"
+      },
+      {
+        "title": "Cloudflare",
+        "image": "/assets/skills/cloudflare.svg",
+        "imageAltText": "cloudflare",
+        "redirectLink": "https://www.cloudflare.com/pt-br"
+      },
+      {
+        "title": "Vercel",
+        "image": "/assets/skills/vercel.svg",
+        "imageAltText": "vercel",
+        "redirectLink": "https://vercel.com"
       }
     ]
   },
