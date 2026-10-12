@@ -167,9 +167,9 @@
   background-color: #202022;
   border: 1px solid #3a3a3a;
   border-radius: 10px;
-  display: flex;
-  flex-flow: row wrap;
+  display: grid;
   gap: 20px;
+  grid-template-columns: repeat(auto-fill, 102px);
   justify-content: space-evenly;
   padding: 20px;
 }

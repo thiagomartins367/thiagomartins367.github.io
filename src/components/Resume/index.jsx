@@ -1,9 +1,17 @@
 import SmallCard from '../SmallCard';
 import data from '../../database/data.json';
+import useSkillsHighlight from './useSkillsHighlight';
 import './index.css';
 
 function Resume() {
   const { professional } = data;
+  const {
+    skillsRef,
+    isHighlightRunning,
+    highlightedSkill,
+    pauseHighlight,
+    resumeHighlightLater,
+  } = useSkillsHighlight(professional.skills.length);
   return (
     <section className="section-resume">
       <section className="timeline">
@@ -94,17 +102,21 @@ function Resume() {
         <h3>
           Minhas Skills
         </h3>
-        <section className="section-skills-content">
+        <section ref={ skillsRef } className="section-skills-content">
           {
-            professional.skills.map(({ title, image, imageAltText, redirectLink }) => (
-              <SmallCard
-                key={ `${title}-${image}` }
-                cardTitle={ title }
-                imagePath={ image }
-                imageAltText={ imageAltText }
-                redirectLink={ redirectLink }
-              />
-            ))
+            professional.skills
+              .map(({ title, image, imageAltText, redirectLink }, index) => (
+                <SmallCard
+                  key={ `${title}-${image}` }
+                  cardTitle={ title }
+                  imagePath={ image }
+                  imageAltText={ imageAltText }
+                  redirectLink={ redirectLink }
+                  isHighlighted={ isHighlightRunning && index === highlightedSkill }
+                  onMouseEnter={ pauseHighlight }
+                  onMouseLeave={ resumeHighlightLater }
+                />
+              ))
           }
         </section>
       </section>

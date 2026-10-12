@@ -18,10 +18,11 @@ a {
   height: 90px;
   justify-content: space-evenly;
   padding: 5px;
+  transition: box-shadow 1s ease-in-out , transform 1s ease-in-out;
   width: 90px;
 }
 
-.skill:hover {
+.skill:hover, .skill-highlighted {
   box-shadow: 0.001px 0.001px 5px #ffdb70;
   transform: scale(1.05);
 }
@@ -35,5 +36,12 @@ a {
 
   .card-title {
     font-size: 14px;
+  }
+}
+
+@media ( prefers-reduced-motion : reduce ) {
+
+  .skill {
+    transition: none;
   }
 }
