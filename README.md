@@ -7,6 +7,7 @@ Portfólio pessoal com experiência, educação, skills, projetos e contatos de 
 [![Site](https://img.shields.io/badge/site-thiagodmartins.dev-ffdb70?style=flat)](https://thiagodmartins.dev)
 [![Validação](https://github.com/thiagomartins367/thiagomartins367.github.io/actions/workflows/index.yml/badge.svg)](https://github.com/thiagomartins367/thiagomartins367.github.io/actions/workflows/index.yml)
 [![Deploy na Vercel](https://img.shields.io/badge/deploy-Vercel-000000?style=flat&logo=vercel&logoColor=white)](https://thiagodmartins.dev)
+[![Licença MIT](https://img.shields.io/badge/licen%C3%A7a-MIT-blue?style=flat)](LICENSE)
 
 **[:globe_with_meridians: Acessar o site](https://thiagodmartins.dev)**
 
@@ -19,7 +20,8 @@ Portfólio pessoal com experiência, educação, skills, projetos e contatos de 
 [Como rodar localmente](#como-rodar-localmente) •
 [CI/CD e hospedagem](#cicd-e-hospedagem) •
 [Contribuidores](#contribuidores) •
-[Contato](#contato)
+[Contato](#contato) •
+[Licença](#licença)
 
 </div>
 
@@ -181,3 +183,9 @@ O deploy é feito pela **Vercel**: cada PR ganha um link de preview, e cada merg
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-thiago--dioria--martins-0a66c2?style=flat)](https://www.linkedin.com/in/thiago-dioria-martins)
 [![E-mail](https://img.shields.io/badge/E--mail-contato@thiagodmartins.dev-ffdb70?style=flat)](mailto:contato@thiagodmartins.dev)
 [![GitHub](https://img.shields.io/badge/GitHub-thiagomartins367-181717?style=flat&logo=github&logoColor=white)](https://github.com/thiagomartins367)
+
+## Licença
+
+O código-fonte é distribuído sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+> A licença vale apenas para o código. A foto, o currículo e as informações pessoais e profissionais exibidas no site (como os textos do `data.json`) pertencem a Thiago Martins e não podem ser reutilizados sem autorização.
