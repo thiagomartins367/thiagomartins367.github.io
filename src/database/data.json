@@ -4,7 +4,7 @@
     "title": "Software Engineer",
     "description": {
       "paragraphs": [
-        "Sou <b>Desenvolvedor Full-Stack Pleno</b> com foco em Back-end. Trabalho principalmente com <b>C#, .NET e ASP.NET</b>, construindo APIs e a camada de dados de aplicações web apoiando no front-end com <b>React e TypeScript</b> quando o time precisa.",
+        "Sou <b>Desenvolvedor Full-Stack Pleno</b> com mais de 2 anos de experiência no mercado de tecnologia. Trabalho principalmente com <b>C#, .NET e ASP.NET</b>, construindo APIs e a camada de dados de aplicações web, apoiando o front-end com <b>React e TypeScript</b> quando o time precisa.",
         "Minha relação com programação começou no curso <b>Técnico de Informática</b>, com HTML, CSS, JavaScript e Python. Foi lá que desenvolvi meu primeiro sistema com banco de dados — e que entendi que era isso que eu queria fazer. Depois, a <b>Formação Full Stack</b> pela <a class='link-trybe' href='https://www.betrybe.com/formacao-desenvolvimento-web' target='_blank'>Trybe</a> aprofundou tudo: do Git ao deploy, passando por dezenas de projetos práticos que me prepararam de verdade pro mercado. A virada para o <b>.NET</b> veio de uma escolha minha: estudei a stack por conta antes de trabalhar com ela, e hoje é onde construo a maior parte do que faço.",
         "Meu primeiro emprego formal na área foi como <b>Analista de Suporte de Sistemas</b>. Ali descobri algo que muitos subestimam: a importância de ouvir o cliente, entender a dor real e comunicar a solução de forma clara. Essa experiência moldou a forma como penso software até hoje — sempre com o <b>usuário final em mente</b>.",
         "Encaro cada tecnologia nova como oportunidade, não como obstáculo. Foi assim com o .NET, é assim com IA, e será assim com o que vier depois. Acredito que o melhor dev não é o que sabe mais linguagens, é o que <b>resolve problemas reais com as ferramentas certas</b>."
@@ -92,7 +92,7 @@
         "start": "fev/2026",
         "end": "atual",
         "description": [
-          "Atuo no desenvolvimento e na evolução de aplicações web na <a class='link-avoque-consultores' href='https://avoque.com.br' target='_blank'>Avoque Consultores</a>, com foco no back-end: APIs REST, modelagem de dados e implementação de regras de negócio, aplicando princípios de POO e SOLID. Escrevo testes automatizados, participo de revisões de código e colaboro com o front-end em decisões técnicas e na integração entre as camadas. O dia a dia é conduzido em equipe, com metodologias ágeis e versionamento com Git."
+          "Atuo no desenvolvimento e na evolução de aplicações web na <a class='link-avoque-consultores' href='https://avoque.com.br' target='_blank'>Avoque Consultores</a>: APIs REST, modelagem de dados e implementação de regras de negócio, aplicando princípios de POO e SOLID. Escrevo testes automatizados, participo de revisões de código e colaboro com o front-end em decisões técnicas e na integração entre as camadas. O dia a dia é conduzido em equipe, com metodologias ágeis e versionamento com Git."
         ]
       },
       {
@@ -100,7 +100,7 @@
         "start": "nov/2025",
         "end": "fev/2026",
         "description": [
-          "Atuei no desenvolvimento de aplicações web na <a class='link-med-corporate' href='https://medcorporate.com.br' target='_blank'>MED Corporate</a>, com foco no back-end, apoiando também o front-end. Apliquei boas práticas de código e testes automatizados em equipe com metodologias ágeis e versionamento com Git."
+          "Atuei no desenvolvimento de aplicações web na <a class='link-med-corporate' href='https://medcorporate.com.br' target='_blank'>MED Corporate</a>, do back-end à integração com o front-end. Apliquei boas práticas de código e testes automatizados em equipe com metodologias ágeis e versionamento com Git."
         ]
       },
       {
