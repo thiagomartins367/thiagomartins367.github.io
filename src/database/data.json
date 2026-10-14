@@ -139,6 +139,12 @@
         "redirectLink": "https://claude.com/solutions/coding"
       },
       {
+        "title": "ChatGPT",
+        "image": "/assets/skills/chatgpt.svg",
+        "imageAltText": "chatgpt",
+        "redirectLink": "https://chatgpt.com"
+      },
+      {
         "title": "NodeJS",
         "image": "/assets/skills/nodejs.svg",
         "imageAltText": "node js",
@@ -163,12 +169,6 @@
         "redirectLink": "https://redux.js.org"
       },
       {
-        "title": "Docker",
-        "image": "/assets/skills/docker.svg",
-        "imageAltText": "docker",
-        "redirectLink": "https://www.docker.com"
-      },
-      {
         "title": "HTML",
         "image": "/assets/skills/html.svg",
         "imageAltText": "html",
@@ -179,6 +179,18 @@
         "image": "/assets/skills/css.svg",
         "imageAltText": "css",
         "redirectLink": "https://developer.mozilla.org/pt-BR/docs/Web/CSS"
+      },
+      {
+        "title": "Tailwind",
+        "image": "/assets/skills/tailwindcss.svg",
+        "imageAltText": "tailwind css",
+        "redirectLink": "https://tailwindcss.com"
+      },
+      {
+        "title": "Styled C.",
+        "image": "/assets/skills/styled-components.svg",
+        "imageAltText": "styled components",
+        "redirectLink": "https://styled-components.com"
       },
       {
         "title": "JavaScript",
@@ -197,6 +209,12 @@
         "image": "/assets/skills/python.svg",
         "imageAltText": "python",
         "redirectLink": "https://www.python.org/about"
+      },
+      {
+        "title": "SQL Server",
+        "image": "/assets/skills/sql-server.svg",
+        "imageAltText": "sql server",
+        "redirectLink": "https://www.microsoft.com/pt-br/sql-server"
       },
       {
         "title": "MySQL",
@@ -229,10 +247,22 @@
         "redirectLink": "https://mongoosejs.com"
       },
       {
+        "title": "Redis",
+        "image": "/assets/skills/redis.svg",
+        "imageAltText": "redis",
+        "redirectLink": "https://redis.io/pt"
+      },
+      {
         "title": "JWT",
         "image": "/assets/skills/jwt.svg",
         "imageAltText": "json web tokens",
         "redirectLink": "https://jwt.io/introduction"
+      },
+      {
+        "title": "xUnit",
+        "image": "/assets/skills/xunit.svg",
+        "imageAltText": "xunit",
+        "redirectLink": "https://xunit.net"
       },
       {
         "title": "Jest",
@@ -259,16 +289,28 @@
         "redirectLink": "https://www.chaijs.com"
       },
       {
-        "title": "Git",
-        "image": "/assets/skills/git.svg",
-        "imageAltText": "git",
-        "redirectLink": "https://git-scm.com"
+        "title": "Sinon",
+        "image": "/assets/skills/sinon.webp",
+        "imageAltText": "sinon",
+        "redirectLink": "https://sinonjs.org"
       },
       {
-        "title": "GitHub",
-        "image": "/assets/skills/github.svg",
-        "imageAltText": "github",
-        "redirectLink": "https://docs.github.com/pt/get-started/start-your-journey/about-github-and-git"
+        "title": "Docker",
+        "image": "/assets/skills/docker.svg",
+        "imageAltText": "docker",
+        "redirectLink": "https://www.docker.com"
+      },
+      {
+        "title": "AWS",
+        "image": "/assets/skills/aws.svg",
+        "imageAltText": "aws",
+        "redirectLink": "https://aws.amazon.com/pt"
+      },
+      {
+        "title": "Azure",
+        "image": "/assets/skills/azure.svg",
+        "imageAltText": "azure",
+        "redirectLink": "https://azure.microsoft.com/pt-br/explore"
       },
       {
         "title": "Cloudflare",
@@ -281,6 +323,24 @@
         "image": "/assets/skills/vercel.svg",
         "imageAltText": "vercel",
         "redirectLink": "https://vercel.com"
+      },
+      {
+        "title": "GH Actions",
+        "image": "/assets/skills/github-actions.svg",
+        "imageAltText": "github actions",
+        "redirectLink": "https://docs.github.com/pt/actions"
+      },
+      {
+        "title": "Git",
+        "image": "/assets/skills/git.svg",
+        "imageAltText": "git",
+        "redirectLink": "https://git-scm.com"
+      },
+      {
+        "title": "GitHub",
+        "image": "/assets/skills/github.svg",
+        "imageAltText": "github",
+        "redirectLink": "https://docs.github.com/pt/get-started/start-your-journey/about-github-and-git"
       }
     ]
   },
