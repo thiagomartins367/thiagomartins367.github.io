@@ -162,7 +162,7 @@ O deploy é feito pela **Vercel**: cada PR ganha um link de preview, e cada merg
 
 | Serviço | Papel |
 | --- | --- |
-| **Vercel** | Hospeda o site e o entrega pela rede de borda (CDN) da Vercel, com HTTPS e cache em servidores próximos de quem acessa. |
+| **Vercel** | Hospeda o site e o entrega pela rede de borda (CDN) da Vercel, com HTTPS e cache em servidores próximos de quem acessa. O Vercel Web Analytics conta visitantes e visualizações de página, sem cookies. |
 | **Cloudflare** | Gerencia o DNS do domínio `thiagodmartins.dev`, que aponta para a Vercel. |
 
 ## Contribuidores

@@ -114,6 +114,22 @@
         }
       </style>
     </noscript>
+    <!--
+      Vercel Web Analytics: conta visitantes e visualizações de página, sem cookies.
+      O script é servido pela própria Vercel no deploy, por isso só é carregado no
+      build de produção (o CRA troca %NODE_ENV% pelo ambiente do build).
+    -->
+    <script>
+      if ('%NODE_ENV%' === 'production') {
+        window.va = window.va || function () {
+          (window.vaq = window.vaq || []).push(arguments);
+        };
+        var vercelAnalyticsScript = document.createElement('script');
+        vercelAnalyticsScript.defer = true;
+        vercelAnalyticsScript.src = '/_vercel/insights/script.js';
+        document.head.appendChild(vercelAnalyticsScript);
+      }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
