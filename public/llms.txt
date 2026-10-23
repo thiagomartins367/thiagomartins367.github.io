@@ -1,0 +1,57 @@
+# Thiago Martins
+
+> Desenvolvedor Full-Stack .NET (C#, ASP.NET Core, React). Portfólio com experiência profissional, formação, skills, projetos e contatos.
+
+Thiago Martins é Desenvolvedor Full-Stack Pleno, com mais de 2 anos de experiência no mercado de tecnologia. Trabalha principalmente com C#, .NET e ASP.NET, construindo APIs REST e a camada de dados de aplicações web, e apoia o front-end com React e TypeScript. Começou a programar no curso Técnico em Informática do Ifes, aprofundou a formação na Trybe (Desenvolvimento Web Full-Stack e Aceleração C#) e trabalhou com suporte a sistemas antes de atuar como desenvolvedor, o que formou a prática de construir software com o usuário final em mente.
+
+## Contato
+
+- [Portfólio](https://thiagodmartins.dev): site com experiência, formação, skills e projetos
+- [LinkedIn](https://www.linkedin.com/in/thiago-dioria-martins)
+- [GitHub](https://github.com/thiagomartins367)
+- [E-mail](mailto:contato@thiagodmartins.dev)
+- [Currículo em PDF](https://drive.google.com/u/0/uc?id=1OgazcftC-baIqqRwTsxUlJTaSRxvO35M&export=download)
+
+## Experiência profissional
+
+- **Desenvolvedor Full-Stack Pleno, [Avoque Consultores](https://avoque.com.br)** (fev/2026 até hoje): desenvolvimento e evolução de aplicações web, com APIs REST, modelagem de dados e regras de negócio aplicando POO e SOLID, testes automatizados, revisão de código e integração com o front-end, em equipe ágil.
+- **Desenvolvedor Full-Stack Pleno, [MED Corporate](https://medcorporate.com.br)** (nov/2025 a fev/2026): desenvolvimento de aplicações web do back-end à integração com o front-end, com testes automatizados e metodologias ágeis.
+- **Analista de Suporte de Sistemas, [Prodados](http://site.prodadosinformatica.com.br)** (jul/2024 a nov/2025): suporte aos sistemas da empresa, entre eles o Vision (desktop em C#), relato de erros ao time de desenvolvimento e propostas de funcionalidades para a nova versão do Vision, em C# com ASP.NET.
+
+## Formação
+
+- **Bootcamp IA Generativa com AWS, [Trybe](https://www.betrybe.com)** (jan/2024 a fev/2024): Amazon Bedrock, Amazon SageMaker e CodeWhisperer (atual Amazon Q Developer).
+- **Aceleração C#, [Trybe](https://www.betrybe.com)** (out/2023 a fev/2024): C#, POO, ASP.NET e Web API, LINQ, SQL Server, Entity Framework, JWT, xUnit, Docker, microsserviços e deploy na Azure.
+- **Certificado Profissional de UX Design, Google, via Coursera** (mar/2023 a jul/2023): UX Research, wireframes, protótipos e estudos de usabilidade.
+- **Desenvolvimento Web Full-Stack, [Trybe](https://www.betrybe.com)** (set/2021 a out/2022): mais de 1.500 horas e mais de 30 projetos com React, Redux, Node.js, Express, MySQL, MongoDB, Docker, TypeScript e Python, com Scrum e Kanban.
+- **Técnico em Informática, [Instituto Federal do Espírito Santo](https://cachoeiro.ifes.edu.br)** (jul/2019 a dez/2022).
+
+## Skills
+
+- **Back-end:** C#, .NET, ASP.NET Core, LINQ, Node.js, Express, APIs REST, POO e SOLID.
+- **Front-end:** React, TypeScript, JavaScript, Redux, Tailwind CSS e Styled-Components.
+- **Bancos de dados, ORMs e ODMs:** SQL Server, MySQL, MongoDB, Redis, Entity Framework, Sequelize e Mongoose.
+- **DevOps e cloud:** Docker, Azure, AWS, GitHub Actions, CI/CD, Cloudflare e Vercel.
+- **Versionamento:** Git e GitHub.
+- **Testes automatizados:** xUnit, Jest, React Testing Library, Mocha, Chai e Sinon.
+- **Metodologias:** Scrum, Kanban e métodos ágeis.
+- **Inteligência artificial:** Claude, Claude Code e ChatGPT.
+
+## Projetos
+
+- [Trybe Hotel](https://github.com/thiagomartins367/Trybe-project-csharp-trybe-hotel): API de reservas de hotel com .NET, ASP.NET, C#, Docker e GitHub Actions.
+- [API de Receitas](https://github.com/thiagomartins367/Trybe-project-csharp-recipes-api): API REST com .NET, ASP.NET e C#.
+- [Trybe Games](https://github.com/thiagomartins367/Trybe-project-csharp-trybe-games): aplicação com .NET e C#.
+- [Trybank](https://github.com/thiagomartins367/Trybe-project-csharp-trybank): sistema bancário com .NET e C#.
+- [Futebol Clube](https://github.com/thiagomartins367/Trybe-project-futebol-clube): aplicação full-stack com Node.js, Express, TypeScript, Sequelize, MySQL, React e Docker.
+- [Car Shop](https://github.com/thiagomartins367/Trybe-project-car-shop): API com Node.js, Express, TypeScript, MongoDB e Mongoose.
+- [APP de Receitas](https://github.com/thiagomartins367/Trybe-project-recipes-app): aplicação React com Context API e React Testing Library.
+- [Jogo de Trivia](https://github.com/thiagomartins367/Trybe-project-trivia-react-redux): jogo em React com Redux.
+- [Trybe Wallet](https://github.com/thiagomartins367/Trybe-project-trybewallet): carteira de despesas em React com Redux.
+- [Star Wars Planets Search](https://github.com/thiagomartins367/Trybe-project-starwars-planets-search): busca e filtros em React com Context API.
+- [Job Insights](https://github.com/thiagomartins367/Trybe-project-job-insights): análise de vagas com Python, Flask e Pytest.
+- [Servidor Web com Docker](https://github.com/thiagomartins367/traefik-docker/tree/thiago-martins-app-todo-list): aplicação servida com Docker, Traefik e Portainer.
+
+## Opcional
+
+- [Código-fonte do portfólio](https://github.com/thiagomartins367/thiagomartins367.github.io): SPA em React 18, com CI no GitHub Actions e deploy na Vercel.
