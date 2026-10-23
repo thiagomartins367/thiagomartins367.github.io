@@ -45,6 +45,7 @@ O conteúdo fica separado da interface: experiência, skills, projetos, contatos
 - **Destaque animado das skills:** um brilho dourado percorre os cards de skills em loop e pausa enquanto o mouse está sobre eles.
 - **Acessibilidade:** atributos `aria-*` nos botões, foco visível na navegação por teclado e animações desativadas com `prefers-reduced-motion`.
 - **Desempenho:** imagens em WebP e SVG servidas pelo próprio domínio. As abas ocultas só carregam depois da primeira tela.
+- **SEO e buscas com IA:** title e description descritivos, tags Open Graph, dados estruturados (JSON-LD do schema.org), `llms.txt` e `sitemap.xml`.
 - **Atalho no celular:** o site pode ser adicionado à tela inicial, com a foto e o nome como ícone (Web App Manifest).
 
 ## Disponibilidade
