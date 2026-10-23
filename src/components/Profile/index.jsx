@@ -17,12 +17,12 @@ function Profile() {
     <aside className="aside-profile">
       <section className="section-profile-info">
         <div className="div-profile-picture">
-          <img src={ profile.picture } alt="imagem de perfil" />
+          <img src={ profile.picture } alt={ `Foto de ${profile.myName}` } />
         </div>
         <div className="profile-info-content">
-          <div className="div-profile-name">
+          <h1 className="h1-profile-name">
             { profile.myName }
-          </div>
+          </h1>
           <div className="div-profile-title">
             { profile.title }
           </div>

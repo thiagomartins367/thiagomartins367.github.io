@@ -7,8 +7,29 @@
     <meta name="theme-color" content="#121212" />
     <meta
       name="description"
-      content="Portfólio - Thiago Martins"
+      content="Thiago Martins é Desenvolvedor Full-Stack .NET: APIs REST em C# e ASP.NET Core, SQL Server e front-end com React e TypeScript. Veja experiência e projetos."
     />
+    <link rel="canonical" href="https://thiagodmartins.dev" />
+    <!-- Prévia do link ao ser compartilhado (LinkedIn, WhatsApp, X etc.) -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Thiago Martins" />
+    <meta property="og:url" content="https://thiagodmartins.dev" />
+    <meta
+      property="og:title"
+      content="Thiago Martins — Desenvolvedor Full-Stack .NET (C#, ASP.NET Core, React)"
+    />
+    <meta
+      property="og:description"
+      content="Thiago Martins é Desenvolvedor Full-Stack .NET: APIs REST em C# e ASP.NET Core, SQL Server e front-end com React e TypeScript. Veja experiência e projetos."
+    />
+    <meta property="og:image" content="https://thiagodmartins.dev/logo512.png" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:image:alt" content="Foto de Thiago Martins" />
+    <meta property="profile:first_name" content="Thiago" />
+    <meta property="profile:last_name" content="Martins" />
+    <meta name="twitter:card" content="summary" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.png" />
     <!-- A foto de perfil começa a ser baixada junto com o JavaScript, e não depois dele -->
     <link
@@ -37,7 +58,76 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Thiago Martins</title>
+    <title>Thiago Martins — Desenvolvedor Full-Stack .NET (C#, ASP.NET Core, React)</title>
+    <!--
+      Dados estruturados (schema.org) para buscadores e IAs: o conteúdo do site é
+      renderizado pelo React, então sem isso o HTML não diz quem é a pessoa nem o
+      que ela faz. Ao mudar cargo, empresa ou skills no data.json, atualize aqui
+      e no public/llms.txt.
+    -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://thiagodmartins.dev/#website",
+            "url": "https://thiagodmartins.dev",
+            "name": "Thiago Martins",
+            "inLanguage": "pt-BR",
+            "publisher": { "@id": "https://thiagodmartins.dev/#person" }
+          },
+          {
+            "@type": "ProfilePage",
+            "@id": "https://thiagodmartins.dev/#profilepage",
+            "url": "https://thiagodmartins.dev",
+            "name": "Thiago Martins — Desenvolvedor Full-Stack .NET (C#, ASP.NET Core, React)",
+            "inLanguage": "pt-BR",
+            "isPartOf": { "@id": "https://thiagodmartins.dev/#website" },
+            "mainEntity": { "@id": "https://thiagodmartins.dev/#person" }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://thiagodmartins.dev/#person",
+            "name": "Thiago Martins",
+            "url": "https://thiagodmartins.dev",
+            "image": "https://thiagodmartins.dev/assets/thiago-martins.webp",
+            "jobTitle": "Desenvolvedor Full-Stack .NET",
+            "description": "Desenvolvedor Full-Stack Pleno com foco em back-end .NET: APIs REST em C# e ASP.NET Core, modelagem de dados e regras de negócio, apoiando o front-end com React e TypeScript.",
+            "email": "mailto:contato@thiagodmartins.dev",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "Avoque Consultores",
+              "url": "https://avoque.com.br"
+            },
+            "alumniOf": [
+              {
+                "@type": "EducationalOrganization",
+                "name": "Instituto Federal do Espírito Santo (Ifes)",
+                "url": "https://cachoeiro.ifes.edu.br"
+              },
+              {
+                "@type": "EducationalOrganization",
+                "name": "Trybe",
+                "url": "https://www.betrybe.com"
+              }
+            ],
+            "knowsAbout": [
+              "C#", ".NET", "ASP.NET Core", "LINQ", "Entity Framework", "APIs REST",
+              "POO", "SOLID", "Node.js", "Express", "React", "TypeScript",
+              "JavaScript", "Redux", "Tailwind CSS", "Styled-Components",
+              "SQL Server", "MySQL", "MongoDB", "Redis", "Docker", "Azure", "AWS",
+              "GitHub Actions", "CI/CD", "xUnit", "Jest", "Scrum", "Kanban"
+            ],
+            "knowsLanguage": "pt-BR",
+            "sameAs": [
+              "https://www.linkedin.com/in/thiago-dioria-martins",
+              "https://github.com/thiagomartins367"
+            ]
+          }
+        ]
+      }
+    </script>
     <!--
       Estilos da tela de carregamento ficam inline para que ela apareça antes do
       CSS da aplicação. Ela é escondida por src/loadingScreen.js.
